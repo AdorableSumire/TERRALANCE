@@ -1,0 +1,2451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lancer | Artist Network</title>
+    <style>
+        :root {
+            --bg: #eef3f6;
+            --bg-soft: #f8fbfd;
+            --surface: rgba(255, 255, 255, 0.82);
+            --surface-strong: rgba(255, 255, 255, 0.94);
+            --line: rgba(17, 35, 47, 0.10);
+            --line-strong: rgba(17, 35, 47, 0.18);
+            --text: #11232f;
+            --muted: #607483;
+            --accent: #1497d4;
+            --accent-deep: #0f6f98;
+            --mint: #1fb78f;
+            --coral: #f57b5d;
+            --gold: #f0b24a;
+            --ink: #07131a;
+            --danger: #d85a5a;
+            --shadow: 0 24px 70px rgba(7, 19, 26, 0.12);
+            --radius-xl: 28px;
+            --radius-lg: 22px;
+            --radius-md: 16px;
+            --radius-sm: 12px;
+            --font-ui: "Segoe UI Variable", "Trebuchet MS", "Aptos", sans-serif;
+            --font-display: "Trebuchet MS", "Segoe UI Variable", sans-serif;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            min-height: 100vh;
+            font-family: var(--font-ui);
+            color: var(--text);
+            background:
+                radial-gradient(circle at top left, rgba(20, 151, 212, 0.16), transparent 28%),
+                radial-gradient(circle at top right, rgba(245, 123, 93, 0.14), transparent 26%),
+                linear-gradient(180deg, #f8fbfd 0%, #eef3f6 45%, #e8eef2 100%);
+            padding: 18px;
+            overflow-x: hidden;
+        }
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            background-image:
+                linear-gradient(rgba(17, 35, 47, 0.028) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(17, 35, 47, 0.028) 1px, transparent 1px);
+            background-size: 44px 44px;
+            mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.35), transparent 85%);
+        }
+        button,
+        input,
+        select,
+        textarea {
+            font: inherit;
+        }
+        button {
+            border: 0;
+            background: none;
+            cursor: pointer;
+            color: inherit;
+        }
+        .app-shell {
+            max-width: 1440px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 260px minmax(0, 1fr) 320px;
+            gap: 18px;
+            align-items: start;
+        }
+        .panel {
+            background: var(--surface);
+            border: 1px solid var(--line);
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow);
+            backdrop-filter: blur(18px);
+        }
+        .sidebar,
+        .workspace,
+        .right-rail {
+            min-height: calc(100vh - 36px);
+        }
+        .sidebar,
+        .right-rail {
+            position: sticky;
+            top: 18px;
+            padding: 22px;
+        }
+        .brand {
+            display: grid;
+            gap: 10px;
+            margin-bottom: 22px;
+        }
+        .brand-mark {
+            width: 58px;
+            height: 58px;
+            border-radius: 20px;
+            background:
+                radial-gradient(circle at 30% 25%, rgba(255, 255, 255, 0.75), transparent 36%),
+                linear-gradient(135deg, var(--accent), var(--coral));
+            display: grid;
+            place-items: center;
+            color: white;
+            font-weight: 800;
+            letter-spacing: 0.12em;
+            box-shadow: 0 18px 32px rgba(20, 151, 212, 0.25);
+        }
+        .brand h1 {
+            font-family: var(--font-display);
+            letter-spacing: 0.12em;
+            font-size: 1.1rem;
+        }
+        .brand p,
+        .muted {
+            color: var(--muted);
+        }
+        .status-chip,
+        .pill,
+        .tag,
+        .stat-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            border-radius: 999px;
+            padding: 8px 12px;
+            border: 1px solid var(--line);
+            background: rgba(255, 255, 255, 0.7);
+            color: var(--muted);
+            font-size: 0.82rem;
+        }
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--mint);
+            box-shadow: 0 0 0 6px rgba(31, 183, 143, 0.13);
+        }
+        .nav-group {
+            display: grid;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+        .nav-button,
+        .mobile-nav button {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            padding: 14px 16px;
+            border-radius: 18px;
+            color: var(--muted);
+            transition: transform 0.18s ease, background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
+            border: 1px solid transparent;
+        }
+        .nav-button span:first-child,
+        .mobile-nav button span:first-child {
+            font-weight: 700;
+            color: var(--text);
+        }
+        .nav-button:hover,
+        .mobile-nav button:hover {
+            transform: translateY(-1px);
+            background: rgba(255, 255, 255, 0.7);
+            border-color: var(--line);
+        }
+        .nav-button.active,
+        .mobile-nav button.active {
+            background: linear-gradient(135deg, rgba(20, 151, 212, 0.12), rgba(245, 123, 93, 0.10));
+            border-color: rgba(20, 151, 212, 0.22);
+            color: var(--text);
+        }
+        .primary-button,
+        .secondary-button,
+        .tiny-button,
+        .ghost-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            border-radius: 16px;
+            padding: 12px 16px;
+            font-weight: 700;
+            transition: transform 0.18s ease, opacity 0.18s ease, background 0.18s ease;
+        }
+        .primary-button:hover,
+        .secondary-button:hover,
+        .tiny-button:hover,
+        .ghost-button:hover {
+            transform: translateY(-1px);
+        }
+        .primary-button {
+            background: linear-gradient(135deg, var(--accent), var(--accent-deep));
+            color: white;
+            box-shadow: 0 14px 26px rgba(20, 151, 212, 0.24);
+        }
+        .secondary-button {
+            background: rgba(17, 35, 47, 0.06);
+            border: 1px solid var(--line);
+        }
+        .ghost-button {
+            background: transparent;
+            border: 1px dashed var(--line-strong);
+            color: var(--muted);
+        }
+        .tiny-button {
+            padding: 9px 12px;
+            border-radius: 12px;
+            background: rgba(17, 35, 47, 0.06);
+            border: 1px solid var(--line);
+            font-size: 0.88rem;
+        }
+        .tiny-button[data-variant="accent"] {
+            background: rgba(20, 151, 212, 0.10);
+            border-color: rgba(20, 151, 212, 0.24);
+            color: var(--accent-deep);
+        }
+        .tiny-button[data-variant="danger"] {
+            color: var(--danger);
+        }
+        .sidebar-card,
+        .rail-card,
+        .section-card,
+        .feed-card,
+        .summary-card,
+        .thread-list,
+        .chat-panel,
+        .kanban-column,
+        .portfolio-card,
+        .artist-card,
+        .metric-card {
+            border: 1px solid var(--line);
+            background: var(--surface-strong);
+            border-radius: var(--radius-lg);
+        }
+        .sidebar-card,
+        .rail-card {
+            padding: 18px;
+            margin-top: 16px;
+        }
+        .workspace {
+            padding: 18px;
+        }
+        .topbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            padding: 16px 18px;
+            border: 1px solid var(--line);
+            border-radius: 22px;
+            background: rgba(255, 255, 255, 0.74);
+            position: sticky;
+            top: 18px;
+            z-index: 8;
+            backdrop-filter: blur(16px);
+        }
+        .topbar-meta {
+            display: grid;
+            gap: 4px;
+        }
+        .topbar h2 {
+            font-size: 1.35rem;
+            font-family: var(--font-display);
+        }
+        .search-wrap {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            min-width: 290px;
+        }
+        .search-input,
+        .field input,
+        .field select,
+        .field textarea,
+        .composer-box textarea,
+        .reply-box textarea {
+            width: 100%;
+            border-radius: 16px;
+            border: 1px solid var(--line);
+            background: rgba(248, 251, 253, 0.95);
+            color: var(--text);
+            padding: 13px 14px;
+            outline: none;
+            transition: border-color 0.18s ease, box-shadow 0.18s ease;
+        }
+        .search-input:focus,
+        .field input:focus,
+        .field select:focus,
+        .field textarea:focus,
+        .composer-box textarea:focus,
+        .reply-box textarea:focus {
+            border-color: rgba(20, 151, 212, 0.45);
+            box-shadow: 0 0 0 4px rgba(20, 151, 212, 0.10);
+        }
+        .view-host {
+            display: grid;
+            gap: 18px;
+            margin-top: 18px;
+        }
+        .hero {
+            display: grid;
+            grid-template-columns: 1.35fr 0.95fr;
+            gap: 18px;
+        }
+        .hero-main,
+        .hero-side,
+        .section-card,
+        .summary-card,
+        .feed-card,
+        .metric-card,
+        .chat-panel,
+        .thread-list {
+            padding: 20px;
+        }
+        .hero-main {
+            border-radius: var(--radius-xl);
+            border: 1px solid rgba(20, 151, 212, 0.20);
+            background:
+                radial-gradient(circle at top right, rgba(245, 123, 93, 0.22), transparent 26%),
+                linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(243, 249, 252, 0.98));
+            box-shadow: var(--shadow);
+            display: grid;
+            gap: 16px;
+            overflow: hidden;
+            position: relative;
+        }
+        .hero-main::after {
+            content: "";
+            position: absolute;
+            inset: auto -70px -90px auto;
+            width: 230px;
+            height: 230px;
+            border-radius: 32px;
+            background: linear-gradient(135deg, rgba(20, 151, 212, 0.18), rgba(31, 183, 143, 0.10));
+            transform: rotate(18deg);
+        }
+        .hero-kicker {
+            color: var(--accent-deep);
+            font-size: 0.82rem;
+            font-weight: 800;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+        }
+        .hero h3 {
+            font-family: var(--font-display);
+            font-size: clamp(2rem, 4vw, 3.15rem);
+            line-height: 0.98;
+            max-width: 10ch;
+        }
+        .hero p {
+            max-width: 58ch;
+            color: var(--muted);
+            line-height: 1.6;
+        }
+        .hero-actions,
+        .inline-actions,
+        .filters,
+        .chip-row,
+        .metric-row,
+        .stage-mini-grid,
+        .card-meta,
+        .profile-pills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .hero-side {
+            display: grid;
+            gap: 14px;
+            border-radius: var(--radius-xl);
+            background: linear-gradient(180deg, rgba(17, 35, 47, 0.96), rgba(17, 35, 47, 0.90));
+            color: white;
+            box-shadow: var(--shadow);
+        }
+        .hero-side .muted,
+        .hero-side .pill {
+            color: rgba(255, 255, 255, 0.74);
+            border-color: rgba(255, 255, 255, 0.12);
+            background: rgba(255, 255, 255, 0.04);
+        }
+        .stage-mini-grid {
+            gap: 12px;
+        }
+        .mini-stage {
+            min-width: 94px;
+            flex: 1;
+            border-radius: 18px;
+            padding: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.10);
+        }
+        .mini-stage strong {
+            display: block;
+            font-size: 1.2rem;
+            margin-bottom: 4px;
+        }
+        .grid-two {
+            display: grid;
+            grid-template-columns: minmax(0, 1.25fr) minmax(300px, 0.75fr);
+            gap: 18px;
+        }
+        .section-header,
+        .list-head {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .section-title {
+            display: grid;
+            gap: 4px;
+        }
+        .section-title h4,
+        .list-head h4 {
+            font-size: 1.05rem;
+            font-family: var(--font-display);
+        }
+        .feed-stack,
+        .artist-stack,
+        .portfolio-grid,
+        .metrics-grid,
+        .order-list,
+        .reminder-list,
+        .thread-items,
+        .message-stack {
+            display: grid;
+            gap: 14px;
+        }
+        .feed-card,
+        .artist-card,
+        .portfolio-card,
+        .metric-card {
+            animation: riseIn 0.42s ease both;
+        }
+        .feed-head,
+        .artist-head,
+        .portfolio-head,
+        .message-head,
+        .order-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 14px;
+        }
+        .identity {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+        .avatar {
+            width: 46px;
+            height: 46px;
+            border-radius: 16px;
+            display: grid;
+            place-items: center;
+            color: white;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            background: linear-gradient(135deg, var(--accent), var(--coral));
+            box-shadow: 0 14px 24px rgba(20, 151, 212, 0.18);
+            flex-shrink: 0;
+        }
+        .avatar.small {
+            width: 38px;
+            height: 38px;
+            border-radius: 14px;
+            font-size: 0.86rem;
+        }
+        .identity strong,
+        .artist-meta strong,
+        .portfolio-copy strong {
+            display: block;
+        }
+        .identity small,
+        .artist-meta small,
+        .portfolio-copy small,
+        .message-bubble small,
+        .order-card small {
+            color: var(--muted);
+        }
+        .feed-body,
+        .portfolio-copy p,
+        .artist-copy p,
+        .message-bubble p,
+        .profile-bio,
+        .order-notes {
+            line-height: 1.58;
+            color: var(--muted);
+        }
+        .composer-box,
+        .summary-card,
+        .section-card {
+            display: grid;
+            gap: 14px;
+        }
+        .summary-grid,
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 14px;
+        }
+        .metric-card strong,
+        .summary-number {
+            display: block;
+            font-size: 1.7rem;
+            font-family: var(--font-display);
+            margin-top: 6px;
+        }
+        .artist-grid,
+        .portfolio-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            display: grid;
+            gap: 14px;
+        }
+        .artist-card {
+            padding: 18px;
+            display: grid;
+            gap: 14px;
+        }
+        .artist-stats {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 10px;
+        }
+        .artist-stats div {
+            padding: 12px;
+            border-radius: 16px;
+            background: rgba(17, 35, 47, 0.04);
+            border: 1px solid var(--line);
+            text-align: center;
+        }
+        .artist-stats strong {
+            display: block;
+            font-size: 1.12rem;
+        }
+        .portfolio-toolbar,
+        .studio-strip {
+            display: grid;
+            gap: 14px;
+        }
+        .filter-grid {
+            display: grid;
+            grid-template-columns: minmax(0, 1.8fr) repeat(2, minmax(150px, 0.9fr));
+            gap: 12px;
+        }
+        .portfolio-card {
+            overflow: hidden;
+        }
+        .portfolio-art {
+            aspect-ratio: 4 / 5;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(140deg, var(--tone-a), var(--tone-b));
+        }
+        .portfolio-art::before,
+        .portfolio-art::after {
+            content: "";
+            position: absolute;
+            inset: auto;
+            border-radius: 999px;
+        }
+        .portfolio-art::before {
+            width: 170px;
+            height: 170px;
+            top: 14px;
+            right: -36px;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.34), transparent 65%);
+        }
+        .portfolio-art::after {
+            width: 210px;
+            height: 210px;
+            bottom: -94px;
+            left: -44px;
+            background: radial-gradient(circle, rgba(7, 19, 26, 0.14), transparent 60%);
+        }
+        .art-overlay {
+            position: absolute;
+            inset: 0;
+            padding: 18px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background: linear-gradient(180deg, rgba(7, 19, 26, 0.10), rgba(7, 19, 26, 0.42));
+            color: white;
+        }
+        .art-label {
+            display: inline-flex;
+            align-self: flex-start;
+            padding: 8px 12px;
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.16);
+            border: 1px solid rgba(255, 255, 255, 0.14);
+            font-size: 0.82rem;
+            backdrop-filter: blur(10px);
+        }
+        .art-title {
+            font-size: 1.1rem;
+            font-weight: 800;
+            max-width: 14ch;
+            line-height: 1.05;
+        }
+        .portfolio-copy {
+            padding: 18px;
+            display: grid;
+            gap: 12px;
+        }
+        .portfolio-foot,
+        .artist-foot,
+        .thread-meta,
+        .profile-stats {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 10px;
+            align-items: center;
+        }
+        .kanban-board {
+            display: grid;
+            grid-template-columns: repeat(5, minmax(230px, 1fr));
+            gap: 14px;
+            overflow-x: auto;
+            padding-bottom: 4px;
+        }
+        .kanban-column {
+            padding: 16px;
+            min-height: 240px;
+            display: grid;
+            align-content: start;
+            gap: 12px;
+            background: rgba(255, 255, 255, 0.88);
+        }
+        .kanban-column header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 12px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--line);
+        }
+        .order-card {
+            padding: 14px;
+            border-radius: 18px;
+            border: 1px solid var(--line);
+            background: linear-gradient(180deg, rgba(248, 251, 253, 0.98), rgba(243, 248, 251, 0.98));
+            display: grid;
+            gap: 12px;
+        }
+        .stage-tag {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.76rem;
+            font-weight: 800;
+            letter-spacing: 0.06em;
+            padding: 8px 11px;
+            border-radius: 999px;
+            text-transform: uppercase;
+            width: fit-content;
+        }
+        .stage-brief { background: rgba(20, 151, 212, 0.11); color: var(--accent-deep); }
+        .stage-sketch { background: rgba(245, 123, 93, 0.12); color: #b85039; }
+        .stage-revision { background: rgba(240, 178, 74, 0.16); color: #996a14; }
+        .stage-final { background: rgba(31, 183, 143, 0.13); color: #0f7e61; }
+        .stage-delivered { background: rgba(17, 35, 47, 0.10); color: var(--text); }
+        .thread-layout {
+            display: grid;
+            grid-template-columns: minmax(290px, 0.86fr) minmax(0, 1.14fr);
+            gap: 18px;
+        }
+        .thread-list,
+        .chat-panel {
+            min-height: 640px;
+        }
+        .thread-item {
+            padding: 14px;
+            border-radius: 18px;
+            border: 1px solid transparent;
+            transition: background 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
+        }
+        .thread-item:hover {
+            background: rgba(17, 35, 47, 0.04);
+            border-color: var(--line);
+            transform: translateY(-1px);
+        }
+        .thread-item.active {
+            background: linear-gradient(135deg, rgba(20, 151, 212, 0.10), rgba(245, 123, 93, 0.08));
+            border-color: rgba(20, 151, 212, 0.22);
+        }
+        .message-stack {
+            align-content: start;
+            padding: 6px 0 4px;
+            min-height: 420px;
+        }
+        .message {
+            display: flex;
+            gap: 10px;
+        }
+        .message.self {
+            justify-content: flex-end;
+        }
+        .message-bubble {
+            max-width: 78%;
+            padding: 14px 15px;
+            border-radius: 18px;
+            background: rgba(17, 35, 47, 0.06);
+            border: 1px solid var(--line);
+        }
+        .message.self .message-bubble {
+            background: linear-gradient(135deg, rgba(20, 151, 212, 0.14), rgba(31, 183, 143, 0.12));
+            border-color: rgba(20, 151, 212, 0.22);
+        }
+        .reply-box {
+            display: grid;
+            gap: 12px;
+            margin-top: auto;
+        }
+        .reply-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 12px;
+        }
+        .profile-hero {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 320px;
+            gap: 18px;
+        }
+        .profile-main,
+        .profile-side {
+            padding: 22px;
+            border-radius: var(--radius-xl);
+            border: 1px solid var(--line);
+            background: var(--surface-strong);
+        }
+        .profile-banner {
+            height: 180px;
+            border-radius: 22px;
+            background:
+                radial-gradient(circle at 20% 25%, rgba(255, 255, 255, 0.55), transparent 24%),
+                linear-gradient(135deg, rgba(20, 151, 212, 0.90), rgba(17, 35, 47, 0.88) 42%, rgba(245, 123, 93, 0.82));
+            margin-bottom: 18px;
+            position: relative;
+            overflow: hidden;
+        }
+        .profile-banner::after {
+            content: "";
+            position: absolute;
+            inset: auto 18px 18px auto;
+            width: 120px;
+            height: 120px;
+            border-radius: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.22);
+            background: rgba(255, 255, 255, 0.08);
+            transform: rotate(18deg);
+        }
+        .profile-header {
+            display: flex;
+            justify-content: space-between;
+            gap: 18px;
+            align-items: flex-start;
+            margin-bottom: 18px;
+        }
+        .profile-id {
+            display: flex;
+            gap: 14px;
+        }
+        .profile-avatar {
+            width: 74px;
+            height: 74px;
+            border-radius: 22px;
+            display: grid;
+            place-items: center;
+            color: white;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            background: linear-gradient(135deg, var(--accent), var(--coral));
+            box-shadow: 0 20px 34px rgba(20, 151, 212, 0.22);
+            margin-top: -48px;
+            border: 6px solid rgba(255, 255, 255, 0.92);
+        }
+        .profile-stats {
+            padding-top: 14px;
+            border-top: 1px solid var(--line);
+            margin-top: 18px;
+        }
+        .profile-stat-box {
+            min-width: 120px;
+            padding: 14px;
+            border-radius: 18px;
+            background: rgba(17, 35, 47, 0.04);
+            border: 1px solid var(--line);
+        }
+        .progress-row {
+            display: grid;
+            gap: 12px;
+        }
+        .progress-card {
+            padding: 14px;
+            border-radius: 18px;
+            background: rgba(17, 35, 47, 0.04);
+            border: 1px solid var(--line);
+        }
+        .progress-track {
+            margin-top: 10px;
+            height: 10px;
+            border-radius: 999px;
+            background: rgba(17, 35, 47, 0.08);
+            overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%;
+            border-radius: inherit;
+            background: linear-gradient(90deg, var(--accent), var(--mint));
+        }
+        .empty-state {
+            padding: 28px;
+            border: 1px dashed var(--line-strong);
+            border-radius: 22px;
+            background: rgba(255, 255, 255, 0.55);
+            text-align: center;
+            color: var(--muted);
+        }
+        .dialog-backdrop {
+            position: fixed;
+            inset: 0;
+            background: rgba(7, 19, 26, 0.56);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            z-index: 50;
+            backdrop-filter: blur(8px);
+        }
+        .dialog-backdrop.open {
+            display: flex;
+        }
+        .dialog {
+            width: min(760px, 100%);
+            border-radius: 28px;
+            background: rgba(255, 255, 255, 0.96);
+            border: 1px solid var(--line);
+            box-shadow: 0 28px 80px rgba(7, 19, 26, 0.22);
+            padding: 24px;
+            display: grid;
+            gap: 18px;
+            animation: riseIn 0.24s ease;
+        }
+        .dialog-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 14px;
+        }
+        .dialog-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 14px;
+        }
+        .field {
+            display: grid;
+            gap: 8px;
+        }
+        .field label {
+            font-size: 0.88rem;
+            font-weight: 700;
+        }
+        .field.full {
+            grid-column: 1 / -1;
+        }
+        .dialog-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 12px;
+            padding-top: 6px;
+        }
+        .mobile-nav {
+            display: none;
+            position: sticky;
+            bottom: 14px;
+            margin: 14px auto 0;
+            max-width: 900px;
+            border-radius: 24px;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.86);
+            border: 1px solid var(--line);
+            box-shadow: var(--shadow);
+            backdrop-filter: blur(18px);
+            z-index: 12;
+        }
+        .mobile-nav-inner {
+            display: grid;
+            grid-template-columns: repeat(6, minmax(0, 1fr));
+            gap: 8px;
+        }
+        .mobile-nav button {
+            padding: 12px 10px;
+            border-radius: 18px;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            font-size: 0.78rem;
+        }
+        @keyframes riseIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @media (max-width: 1220px) {
+            .app-shell {
+                grid-template-columns: 220px minmax(0, 1fr);
+            }
+            .right-rail {
+                display: none;
+            }
+            .hero,
+            .profile-hero,
+            .grid-two,
+            .thread-layout {
+                grid-template-columns: 1fr;
+            }
+        }
+        @media (max-width: 980px) {
+            body {
+                padding: 12px;
+            }
+            .app-shell {
+                grid-template-columns: 1fr;
+            }
+            .sidebar {
+                display: none;
+            }
+            .workspace {
+                min-height: auto;
+            }
+            .topbar {
+                top: 12px;
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .search-wrap {
+                min-width: 0;
+                width: 100%;
+            }
+            .hero,
+            .summary-grid,
+            .artist-grid,
+            .portfolio-grid,
+            .dialog-grid,
+            .filter-grid,
+            .metrics-grid,
+            .thread-layout,
+            .profile-hero {
+                grid-template-columns: 1fr;
+            }
+            .mobile-nav {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="app-shell">
+        <aside class="sidebar panel">
+            <div class="brand">
+                <div class="brand-mark">LN</div>
+                <div>
+                    <h1>LANCER</h1>
+                    <p>Creativity and tech minimalism for freelancer artists.</p>
+                </div>
+            </div>
+            <div class="status-chip"><span class="status-dot"></span> Artist network live</div>
+            <div class="nav-group" id="desktopNav"></div>
+            <button class="primary-button" style="width:100%" data-action="open-brief">Create commission brief</button>
+            <div class="sidebar-card" id="sidebarProfile"></div>
+            <div class="sidebar-card" id="sidebarQueue"></div>
+        </aside>
+        <main class="workspace panel">
+            <div class="topbar">
+                <div class="topbar-meta">
+                    <div class="hero-kicker">Artist-first operations</div>
+                    <h2 id="viewTitle">Discover Artists</h2>
+                    <p class="muted" id="viewSubtitle">A calmer freelance network for portfolios, briefs, negotiations, and tracked delivery.</p>
+                </div>
+                <div class="search-wrap">
+                    <input id="globalSearch" class="search-input" type="search" placeholder="Search styles, mediums, artists">
+                    <button class="primary-button" data-action="jump-portfolio">Browse grid</button>
+                </div>
+            </div>
+            <div class="view-host" id="appView"></div>
+        </main>
+        <aside class="right-rail panel" id="rightRail"></aside>
+    </div>
+    <nav class="mobile-nav">
+        <div class="mobile-nav-inner" id="mobileNav"></div>
+    </nav>
+    <div class="dialog-backdrop" id="briefModal">
+        <div class="dialog">
+            <div class="dialog-head">
+                <div>
+                    <div class="hero-kicker">Commission Hub</div>
+                    <h3>Create a tracked commission brief</h3>
+                    <p class="muted">The brief becomes a saved order, opens a negotiation thread, and drops into the kanban tracker.</p>
+                </div>
+                <button class="tiny-button" data-action="close-brief">Close</button>
+            </div>
+            <form id="briefForm">
+                <div class="dialog-grid">
+                    <div class="field">
+                        <label for="briefArtist">Assign artist</label>
+                        <select id="briefArtist" name="artistId" required></select>
+                    </div>
+                    <div class="field">
+                        <label for="briefClient">Client or studio</label>
+                        <input id="briefClient" name="client" type="text" placeholder="Northwind Games" required>
+                    </div>
+                    <div class="field full">
+                        <label for="briefTitle">Project title</label>
+                        <input id="briefTitle" name="title" type="text" placeholder="Launch mascot pose sheet" required>
+                    </div>
+                    <div class="field">
+                        <label for="briefStyle">Style</label>
+                        <select id="briefStyle" name="style" required>
+                            <option value="Painterly">Painterly</option>
+                            <option value="Graphic">Graphic</option>
+                            <option value="Stylized 3D">Stylized 3D</option>
+                            <option value="Editorial">Editorial</option>
+                            <option value="Anime">Anime</option>
+                            <option value="Realistic">Realistic</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="briefMedium">Medium</label>
+                        <select id="briefMedium" name="medium" required>
+                            <option value="2D Illustration">2D Illustration</option>
+                            <option value="3D Rendering">3D Rendering</option>
+                            <option value="Concept Art">Concept Art</option>
+                            <option value="Character Sheet">Character Sheet</option>
+                            <option value="Product Mockup">Product Mockup</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="briefBudget">Budget</label>
+                        <input id="briefBudget" name="budget" type="text" placeholder="$420">
+                    </div>
+                    <div class="field">
+                        <label for="briefDue">Due date</label>
+                        <input id="briefDue" name="dueDate" type="date" required>
+                    </div>
+                    <div class="field full">
+                        <label for="briefNotes">Creative brief</label>
+                        <textarea id="briefNotes" name="brief" rows="5" placeholder="Describe mood, references, usage, deliverables, revision expectations, and file formats." required></textarea>
+                    </div>
+                </div>
+                <div class="dialog-actions">
+                    <div class="pill">Saved for both artist and client</div>
+                    <button class="primary-button" type="submit">Create brief and open thread</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        const STORAGE_KEY = "lancer_artist_network_v4";
+        const ORDER_STAGES = ["Brief", "Sketch", "Revision", "Final", "Delivered"];
+        const NAV_ITEMS = [
+            { id: "home", label: "Home", helper: "Discover artists" },
+            { id: "portfolio", label: "Portfolio Grid", helper: "Search by style" },
+            { id: "commission", label: "Commission Hub", helper: "Briefs and orders" },
+            { id: "inbox", label: "Inbox", helper: "Negotiations" },
+            { id: "studio", label: "My Studio", helper: "Analytics" },
+            { id: "profile", label: "Profile", helper: "Identity" }
+        ];
+        function deepClone(value) {
+            return JSON.parse(JSON.stringify(value));
+        }
+        function createDefaultState() {
+            return {
+                currentView: "home",
+                portfolioQuery: "",
+                portfolioStyle: "All",
+                portfolioMedium: "All",
+                activeThreadId: "thread_1",
+                selectedProfileId: "mira_quill",
+                currentUserId: "mira_quill",
+                following: ["tala_mesh", "inkbynoor"],
+                artists: [
+                    {
+                        id: "mira_quill",
+                        name: "Mira Quill",
+                        handle: "@miraquill",
+                        initials: "MQ",
+                        discipline: "2D Illustrator / Stylized 3D",
+                        location: "Manila, PH",
+                        bio: "Builds character-driven key art, tactile 3D mockups, and clean client communication systems.",
+                        availability: "Open for July commissions",
+                        rate: "$180 to $520",
+                        responseTime: "1h",
+                        followers: 1482,
+                        completed: 42,
+                        satisfaction: 98,
+                        skills: ["Character Sheets", "Stylized Props", "Editorial Splash", "Packaging Mockups"],
+                        vibe: "Cinematic, warm, readable"
+                    },
+                    {
+                        id: "tala_mesh",
+                        name: "Tala Mesh",
+                        handle: "@talamesh",
+                        initials: "TM",
+                        discipline: "3D Prop Artist",
+                        location: "Cebu, PH",
+                        bio: "Creates polished product renders and collectible prop sets with a soft sci-fi edge.",
+                        availability: "Two slots available this month",
+                        rate: "$240 to $680",
+                        responseTime: "2h",
+                        followers: 932,
+                        completed: 27,
+                        satisfaction: 96,
+                        skills: ["3D Rendering", "Turntables", "Materials", "Game Props"],
+                        vibe: "Sleek, tactile, production-ready"
+                    },
+                    {
+                        id: "inkbynoor",
+                        name: "Noor Vale",
+                        handle: "@inkbynoor",
+                        initials: "NV",
+                        discipline: "Editorial Illustrator",
+                        location: "Davao, PH",
+                        bio: "Draws expressive editorial scenes, poster covers, and human-centered campaigns.",
+                        availability: "Booking magazine work",
+                        rate: "$150 to $440",
+                        responseTime: "3h",
+                        followers: 1216,
+                        completed: 54,
+                        satisfaction: 99,
+                        skills: ["Editorial", "Poster Art", "Campaign Visuals", "Color Scripts"],
+                        vibe: "Bold, human, story-led"
+                    },
+                    {
+                        id: "soji_frame",
+                        name: "Soji Frame",
+                        handle: "@sojiframe",
+                        initials: "SF",
+                        discipline: "Concept Artist",
+                        location: "Quezon City, PH",
+                        bio: "Designs environments, faction callouts, and fast visual dev packets for indie teams.",
+                        availability: "Open for environment packs",
+                        rate: "$260 to $760",
+                        responseTime: "4h",
+                        followers: 1670,
+                        completed: 39,
+                        satisfaction: 97,
+                        skills: ["Environment Design", "Mood Keys", "Callouts", "Visual Development"],
+                        vibe: "Structured, moody, worldbuilding-first"
+                    }
+                ],
+                feed: [
+                    {
+                        id: "feed_1",
+                        artistId: "mira_quill",
+                        headline: "Process drop: packaging mascot with tactile 3D charm",
+                        body: "Shared a clean sketch-to-render pass for a cafe mascot launch. Looking for character key art and product mockup work next.",
+                        tags: ["Open Slot", "2D", "3D", "Packaging"],
+                        stats: { likes: 188, replies: 14, saves: 37 }
+                    },
+                    {
+                        id: "feed_2",
+                        artistId: "tala_mesh",
+                        headline: "Available for prop sheets and clean turntables",
+                        body: "Current focus is stylized hard-surface props for indie games. I can bundle still renders, wireframes, and turnaround loops in one order.",
+                        tags: ["3D Artist", "Turntable", "Game Props"],
+                        stats: { likes: 142, replies: 9, saves: 31 }
+                    },
+                    {
+                        id: "feed_3",
+                        artistId: "inkbynoor",
+                        headline: "Editorial commission workflow updated for faster approvals",
+                        body: "Brief intake now includes mood keywords, audience notes, and two revision windows. Cleaner expectations means fewer stalled projects for both sides.",
+                        tags: ["Illustration", "Editorial", "Workflow"],
+                        stats: { likes: 214, replies: 21, saves: 52 }
+                    },
+                    {
+                        id: "feed_4",
+                        artistId: "soji_frame",
+                        headline: "Environment pack samples now tagged by mood and production speed",
+                        body: "Clients can sort by painterly, realistic, or production sketch mode. Trying to make discovery feel closer to picking the right teammate, not just a thumbnail.",
+                        tags: ["Concept Art", "Environment", "Discoverability"],
+                        stats: { likes: 169, replies: 12, saves: 44 }
+                    }
+                ],
+                portfolio: [
+                    {
+                        id: "work_1",
+                        artistId: "mira_quill",
+                        title: "Moonlit Courier",
+                        style: "Painterly",
+                        medium: "2D Illustration",
+                        price: "$220",
+                        summary: "Hero splash art for an indie narrative teaser with layered costume callouts.",
+                        likes: 311,
+                        saves: 88,
+                        tags: ["Fantasy", "Character", "Key Art"],
+                        tones: ["#1f6de2", "#f57b5d"]
+                    },
+                    {
+                        id: "work_2",
+                        artistId: "mira_quill",
+                        title: "Cafe Mascot Pack",
+                        style: "Stylized 3D",
+                        medium: "Product Mockup",
+                        price: "$380",
+                        summary: "Sticker-ready mascot set rendered for packaging previews and social drops.",
+                        likes: 264,
+                        saves: 67,
+                        tags: ["Brand", "Mascot", "3D"],
+                        tones: ["#0f9dd9", "#1fb78f"]
+                    },
+                    {
+                        id: "work_3",
+                        artistId: "tala_mesh",
+                        title: "Orbit Toolkit",
+                        style: "Graphic",
+                        medium: "3D Rendering",
+                        price: "$410",
+                        summary: "Clean collectible prop renders with matte materials and wireframe bonus pass.",
+                        likes: 203,
+                        saves: 54,
+                        tags: ["Props", "Sci-Fi", "Clean"],
+                        tones: ["#101c25", "#3d7cf0"]
+                    },
+                    {
+                        id: "work_4",
+                        artistId: "inkbynoor",
+                        title: "City Morning Editorial",
+                        style: "Editorial",
+                        medium: "2D Illustration",
+                        price: "$190",
+                        summary: "Magazine opener built around commuter rhythm, color hierarchy, and soft urgency.",
+                        likes: 327,
+                        saves: 94,
+                        tags: ["Editorial", "Lifestyle", "Print"],
+                        tones: ["#ff8f7a", "#f0b24a"]
+                    },
+                    {
+                        id: "work_5",
+                        artistId: "soji_frame",
+                        title: "Harbor District Callout",
+                        style: "Realistic",
+                        medium: "Concept Art",
+                        price: "$480",
+                        summary: "Environment sheet with material callouts, signage notes, and atmospheric variants.",
+                        likes: 291,
+                        saves: 73,
+                        tags: ["Environment", "Callout", "Worldbuilding"],
+                        tones: ["#1b2630", "#688ea8"]
+                    },
+                    {
+                        id: "work_6",
+                        artistId: "soji_frame",
+                        title: "Skybridge Mood Keys",
+                        style: "Painterly",
+                        medium: "Concept Art",
+                        price: "$360",
+                        summary: "Three mood keys to align lighting direction before final layout production.",
+                        likes: 177,
+                        saves: 46,
+                        tags: ["Mood Key", "Lighting", "Production"],
+                        tones: ["#2947a3", "#50c3b3"]
+                    },
+                    {
+                        id: "work_7",
+                        artistId: "inkbynoor",
+                        title: "Poster for Quiet Giants",
+                        style: "Graphic",
+                        medium: "2D Illustration",
+                        price: "$240",
+                        summary: "Poster art for an NGO campaign with restrained typography and bold silhouettes.",
+                        likes: 248,
+                        saves: 61,
+                        tags: ["Poster", "Campaign", "Human Stories"],
+                        tones: ["#21313e", "#f57b5d"]
+                    },
+                    {
+                        id: "work_8",
+                        artistId: "tala_mesh",
+                        title: "Glass Bloom Perfume Visual",
+                        style: "Stylized 3D",
+                        medium: "Product Mockup",
+                        price: "$520",
+                        summary: "Fragrance hero render with soft bloom, material studies, and launch-ready crops.",
+                        likes: 338,
+                        saves: 99,
+                        tags: ["Beauty", "Product", "Material Study"],
+                        tones: ["#1fb78f", "#97e0d1"]
+                    }
+                ],
+                orders: [
+                    {
+                        id: "order_1",
+                        artistId: "mira_quill",
+                        client: "Northwind Games",
+                        title: "Launch mascot pose sheet",
+                        style: "Painterly",
+                        medium: "Character Sheet",
+                        budget: "$420",
+                        dueDate: "2026-05-06",
+                        stage: "Sketch",
+                        brief: "Three mascot poses, one prop, and a clean final PNG plus layered PSD.",
+                        reminder: "Waiting on client note for pose B."
+                    },
+                    {
+                        id: "order_2",
+                        artistId: "mira_quill",
+                        client: "Aster Coffee",
+                        title: "Packaging icon set",
+                        style: "Graphic",
+                        medium: "2D Illustration",
+                        budget: "$240",
+                        dueDate: "2026-05-10",
+                        stage: "Revision",
+                        brief: "Illustrated icon suite for cups, labels, and social story cards.",
+                        reminder: "Second revision requested on icon scale."
+                    },
+                    {
+                        id: "order_3",
+                        artistId: "tala_mesh",
+                        client: "Luma Toys",
+                        title: "Collector prop turntable",
+                        style: "Stylized 3D",
+                        medium: "3D Rendering",
+                        budget: "$610",
+                        dueDate: "2026-05-12",
+                        stage: "Brief",
+                        brief: "One hero prop, neutral studio lighting, and short turntable export.",
+                        reminder: "Reference board uploaded."
+                    },
+                    {
+                        id: "order_4",
+                        artistId: "inkbynoor",
+                        client: "Current Journal",
+                        title: "Issue opener editorial",
+                        style: "Editorial",
+                        medium: "2D Illustration",
+                        budget: "$320",
+                        dueDate: "2026-05-03",
+                        stage: "Final",
+                        brief: "Full-page opener with text-safe margins and two palette variants.",
+                        reminder: "Awaiting final approval before export."
+                    },
+                    {
+                        id: "order_5",
+                        artistId: "mira_quill",
+                        client: "Brightline Studio",
+                        title: "Character expression pack",
+                        style: "Anime",
+                        medium: "2D Illustration",
+                        budget: "$280",
+                        dueDate: "2026-04-30",
+                        stage: "Delivered",
+                        brief: "Six expression crops for campaign posts and profile headers.",
+                        reminder: "Delivered with source file archive."
+                    }
+                ],
+                threads: [
+                    {
+                        id: "thread_1",
+                        orderId: "order_1",
+                        artistId: "mira_quill",
+                        client: "Northwind Games",
+                        subject: "Launch mascot pose sheet",
+                        unread: 2,
+                        messages: [
+                            { by: "Northwind Games", role: "Client", text: "Can we push pose B closer to a heroic silhouette? The first pass is strong already.", time: "Apr 26, 10:24" },
+                            { by: "Mira Quill", role: "Artist", text: "Yes. I can widen the stance and simplify the cape shape before I move into cleaner sketch lines.", time: "Apr 26, 10:38" },
+                            { by: "Northwind Games", role: "Client", text: "Perfect. Please keep the prop readable at thumbnail size too.", time: "Apr 26, 10:41" }
+                        ]
+                    },
+                    {
+                        id: "thread_2",
+                        orderId: "order_2",
+                        artistId: "mira_quill",
+                        client: "Aster Coffee",
+                        subject: "Packaging icon set",
+                        unread: 0,
+                        messages: [
+                            { by: "Aster Coffee", role: "Client", text: "The cup icon feels a little too detailed at small size. Can we simplify the steam curve?", time: "Apr 25, 15:06" },
+                            { by: "Mira Quill", role: "Artist", text: "Absolutely. I will trim the inner lines and send a cleaner test at 24px and 48px.", time: "Apr 25, 15:22" }
+                        ]
+                    },
+                    {
+                        id: "thread_3",
+                        orderId: "order_3",
+                        artistId: "tala_mesh",
+                        client: "Luma Toys",
+                        subject: "Collector prop turntable",
+                        unread: 1,
+                        messages: [
+                            { by: "Luma Toys", role: "Client", text: "Uploaded reference shots for the material treatment. Looking for something premium but playful.", time: "Apr 27, 09:15" },
+                            { by: "Tala Mesh", role: "Artist", text: "Received. I will confirm the lighting route and turnaround timing after I review the board.", time: "Apr 27, 09:34" }
+                        ]
+                    }
+                ]
+            };
+        }
+        let state = loadState();
+        function loadState() {
+            const defaults = createDefaultState();
+            try {
+                const saved = localStorage.getItem(STORAGE_KEY);
+                if (!saved) return defaults;
+                const parsed = JSON.parse(saved);
+                return {
+                    ...defaults,
+                    ...parsed,
+                    artists: parsed.artists || defaults.artists,
+                    feed: parsed.feed || defaults.feed,
+                    portfolio: parsed.portfolio || defaults.portfolio,
+                    orders: parsed.orders || defaults.orders,
+                    threads: parsed.threads || defaults.threads,
+                    following: parsed.following || defaults.following
+                };
+            } catch (error) {
+                return defaults;
+            }
+        }
+        function saveState() {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+        }
+        function getCurrentUser() {
+            return getArtistById(state.currentUserId);
+        }
+        function getArtistById(id) {
+            return state.artists.find((artist) => artist.id === id);
+        }
+        function formatDate(value) {
+            if (!value) return "TBD";
+            const date = new Date(value);
+            if (Number.isNaN(date.getTime())) return value;
+            return date.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+        }
+        function formatDateTime() {
+            return new Date().toLocaleString("en-US", {
+                month: "short",
+                day: "numeric",
+                hour: "2-digit",
+                minute: "2-digit"
+            });
+        }
+        function escapeHtml(text) {
+            const div = document.createElement("div");
+            div.textContent = text || "";
+            return div.innerHTML;
+        }
+        function getOrdersForArtist(artistId) {
+            return state.orders.filter((order) => order.artistId === artistId);
+        }
+        function getStageCounts() {
+            return ORDER_STAGES.map((stage) => ({
+                stage,
+                count: state.orders.filter((order) => order.stage === stage).length
+            }));
+        }
+        function getPortfolioFilters() {
+            const styles = ["All", ...new Set(state.portfolio.map((item) => item.style))];
+            const mediums = ["All", ...new Set(state.portfolio.map((item) => item.medium))];
+            return { styles, mediums };
+        }
+        function getFilteredPortfolio() {
+            const query = state.portfolioQuery.trim().toLowerCase();
+            return state.portfolio.filter((item) => {
+                const artist = getArtistById(item.artistId);
+                const haystack = [
+                    item.title,
+                    item.style,
+                    item.medium,
+                    item.summary,
+                    ...(item.tags || []),
+                    artist ? artist.name : "",
+                    artist ? artist.discipline : ""
+                ].join(" ").toLowerCase();
+                const matchQuery = !query || haystack.includes(query);
+                const matchStyle = state.portfolioStyle === "All" || item.style === state.portfolioStyle;
+                const matchMedium = state.portfolioMedium === "All" || item.medium === state.portfolioMedium;
+                return matchQuery && matchStyle && matchMedium;
+            });
+        }
+        function getStudioMetrics() {
+            const mine = getOrdersForArtist(state.currentUserId);
+            const active = mine.filter((order) => order.stage !== "Delivered");
+            const delivered = mine.filter((order) => order.stage === "Delivered");
+            const totalBudget = mine.reduce((sum, order) => sum + parseBudget(order.budget), 0);
+            const revisions = mine.filter((order) => order.stage === "Revision").length;
+            return {
+                activeCount: active.length,
+                deliveredCount: delivered.length,
+                revisionCount: revisions,
+                totalBudget,
+                onTimeRate: mine.length ? Math.round((delivered.length / mine.length) * 100) : 0
+            };
+        }
+        function parseBudget(value) {
+            if (!value) return 0;
+            const parsed = Number(String(value).replace(/[^0-9.]/g, ""));
+            return Number.isFinite(parsed) ? parsed : 0;
+        }
+        function getReminders(limit = 4) {
+            return deepClone(state.orders)
+                .sort((a, b) => new Date(a.dueDate) - new Date(b.dueDate))
+                .slice(0, limit);
+        }
+        function getActiveThread() {
+            return state.threads.find((thread) => thread.id === state.activeThreadId) || state.threads[0] || null;
+        }
+        function getViewMeta() {
+            const meta = {
+                home: {
+                    title: "Discover Artists",
+                    subtitle: "Find freelancer illustrators, 2D/3D artists, and commission-ready creatives with clearer project flow."
+                },
+                portfolio: {
+                    title: "Portfolio Grid",
+                    subtitle: "Search by style, medium, and artist so discovery feels curated instead of noisy."
+                },
+                commission: {
+                    title: "Commission Hub",
+                    subtitle: "Capture briefs, keep orders visible, and track every project from first note to delivery."
+                },
+                inbox: {
+                    title: "Inbox",
+                    subtitle: "Keep negotiations next to the order context so approvals, revisions, and reminders stay organized."
+                },
+                studio: {
+                    title: "My Studio",
+                    subtitle: "Read queue health, delivery pace, and commission momentum from one artist dashboard."
+                },
+                profile: {
+                    title: "Profile",
+                    subtitle: "Showcase your practice, specialties, reliability, and best-fit commission styles."
+                }
+            };
+            return meta[state.currentView];
+        }
+        function render() {
+            renderNav();
+            renderTopbar();
+            renderSidebar();
+            renderView();
+            renderRightRail();
+            renderBriefArtists();
+            document.getElementById("globalSearch").value = state.portfolioQuery;
+            saveState();
+        }
+        function renderNav() {
+            const desktop = document.getElementById("desktopNav");
+            const mobile = document.getElementById("mobileNav");
+            const template = NAV_ITEMS.map((item) => `
+                <button class="nav-button ${state.currentView === item.id ? "active" : ""}" data-action="nav" data-view="${item.id}">
+                    <span>${item.label}</span>
+                    <small>${item.helper}</small>
+                </button>
+            `).join("");
+            desktop.innerHTML = template;
+            mobile.innerHTML = NAV_ITEMS.map((item) => `
+                <button class="${state.currentView === item.id ? "active" : ""}" data-action="nav" data-view="${item.id}">
+                    <span>${item.label}</span>
+                    <small>${item.helper}</small>
+                </button>
+            `).join("");
+        }
+        function renderTopbar() {
+            const meta = getViewMeta();
+            document.getElementById("viewTitle").textContent = meta.title;
+            document.getElementById("viewSubtitle").textContent = meta.subtitle;
+        }
+        function renderSidebar() {
+            const current = getCurrentUser();
+            const queue = getStudioMetrics();
+            document.getElementById("sidebarProfile").innerHTML = `
+                <div class="section-title">
+                    <h4>${escapeHtml(current.name)}</h4>
+                    <p>${escapeHtml(current.discipline)}</p>
+                </div>
+                <div class="profile-pills">
+                    <span class="pill">${escapeHtml(current.availability)}</span>
+                    <span class="pill">${escapeHtml(current.rate)}</span>
+                </div>
+                <p class="muted">${escapeHtml(current.bio)}</p>
+            `;
+            document.getElementById("sidebarQueue").innerHTML = `
+                <div class="section-title">
+                    <h4>Studio pulse</h4>
+                    <p>Current queue for your active freelance work.</p>
+                </div>
+                <div class="artist-stats">
+                    <div><small>Active</small><strong>${queue.activeCount}</strong></div>
+                    <div><small>Revisions</small><strong>${queue.revisionCount}</strong></div>
+                    <div><small>Delivered</small><strong>${queue.deliveredCount}</strong></div>
+                </div>
+            `;
+        }
+        function renderRightRail() {
+            const stageCounts = getStageCounts();
+            const reminders = getReminders();
+            const current = getCurrentUser();
+            document.getElementById("rightRail").innerHTML = `
+                <div class="rail-card">
+                    <div class="section-title">
+                        <h4>Queue snapshot</h4>
+                        <p>Live commission stages across the network.</p>
+                    </div>
+                    <div class="stage-mini-grid">
+                        ${stageCounts.map((entry) => `
+                            <div class="mini-stage">
+                                <small>${entry.stage}</small>
+                                <strong>${entry.count}</strong>
+                                <span class="muted">${entry.count === 1 ? "order" : "orders"}</span>
+                            </div>
+                        `).join("")}
+                    </div>
+                </div>
+                <div class="rail-card">
+                    <div class="section-title">
+                        <h4>Reminders</h4>
+                        <p>Deadlines and follow-ups that need attention.</p>
+                    </div>
+                    <div class="reminder-list">
+                        ${reminders.map((order) => `
+                            <div class="progress-card">
+                                <div class="order-head">
+                                    <div>
+                                        <strong>${escapeHtml(order.title)}</strong>
+                                        <small>${escapeHtml(order.client)} · ${formatDate(order.dueDate)}</small>
+                                    </div>
+                                    <span class="stage-tag stage-${order.stage.toLowerCase()}">${order.stage}</span>
+                                </div>
+                                <p class="order-notes">${escapeHtml(order.reminder)}</p>
+                            </div>
+                        `).join("")}
+                    </div>
+                </div>
+                <div class="rail-card">
+                    <div class="section-title">
+                        <h4>Artist promise</h4>
+                        <p>Why this UX fits creative freelancers.</p>
+                    </div>
+                    <div class="progress-row">
+                        <div class="progress-card">
+                            <strong>Clean discovery</strong>
+                            <p class="muted">Portfolio-first browsing helps clients find style fit before opening a negotiation.</p>
+                        </div>
+                        <div class="progress-card">
+                            <strong>Shared order memory</strong>
+                            <p class="muted">Every brief, message, and stage update stays visible to artist and client.</p>
+                        </div>
+                        <div class="progress-card">
+                            <strong>${escapeHtml(current.responseTime)} response rhythm</strong>
+                            <p class="muted">Use studio data to show reliability, not just aesthetics.</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+        function renderView() {
+            const root = document.getElementById("appView");
+            if (state.currentView === "home") root.innerHTML = renderHomeView();
+            if (state.currentView === "portfolio") root.innerHTML = renderPortfolioView();
+            if (state.currentView === "commission") root.innerHTML = renderCommissionView();
+            if (state.currentView === "inbox") root.innerHTML = renderInboxView();
+            if (state.currentView === "studio") root.innerHTML = renderStudioView();
+            if (state.currentView === "profile") root.innerHTML = renderProfileView();
+        }
+        function renderHomeView() {
+            const stageCounts = getStageCounts();
+            const featuredArtists = state.artists.filter((artist) => artist.id !== state.currentUserId).slice(0, 3);
+            return `
+                <section class="hero">
+                    <div class="hero-main">
+                        <div class="hero-kicker">Home / Discover Artists</div>
+                        <h3>Creative work deserves calmer systems.</h3>
+                        <p>Lancer is reworked as an artist-first social network where portfolio discovery, commission intake, tracked production, and negotiation all live in one clean flow.</p>
+                        <div class="hero-actions">
+                            <button class="primary-button" data-action="open-brief">Start a commission brief</button>
+                            <button class="secondary-button" data-action="nav" data-view="portfolio">Explore portfolio grid</button>
+                        </div>
+                        <div class="chip-row">
+                            <span class="pill">2D artists</span>
+                            <span class="pill">3D artists</span>
+                            <span class="pill">Illustrators</span>
+                            <span class="pill">Concept art</span>
+                        </div>
+                    </div>
+                    <div class="hero-side">
+                        <div class="hero-kicker">Order tracker</div>
+                        <h4>Brief to delivery at a glance</h4>
+                        <p class="muted">Every stage is explicit so clients always know what is next and artists keep fewer details in their head.</p>
+                        <div class="stage-mini-grid">
+                            ${stageCounts.map((entry) => `
+                                <div class="mini-stage">
+                                    <small>${entry.stage}</small>
+                                    <strong>${entry.count}</strong>
+                                    <span class="muted">${entry.count === 1 ? "tracked job" : "tracked jobs"}</span>
+                                </div>
+                            `).join("")}
+                        </div>
+                    </div>
+                </section>
+                <section class="grid-two">
+                    <div class="section-card">
+                        <div class="section-header">
+                            <div class="section-title">
+                                <h4>Artist signal feed</h4>
+                                <p>Updates built around process, availability, and production clarity.</p>
+                            </div>
+                            <button class="ghost-button" data-action="nav" data-view="commission">Open commission hub</button>
+                        </div>
+                        <div class="feed-stack">
+                            ${state.feed.map((post) => renderFeedCard(post)).join("")}
+                        </div>
+                    </div>
+                    <div class="section-card">
+                        <div class="section-header">
+                            <div class="section-title">
+                                <h4>Featured artists</h4>
+                                <p>Fast paths into styles clients can actually commission.</p>
+                            </div>
+                            <button class="tiny-button" data-action="nav" data-view="profile">View profile</button>
+                        </div>
+                        <div class="artist-stack">
+                            ${featuredArtists.map((artist) => renderArtistCard(artist, true)).join("")}
+                        </div>
+                    </div>
+                </section>
+            `;
+        }
+        function renderFeedCard(post) {
+            const artist = getArtistById(post.artistId);
+            return `
+                <article class="feed-card">
+                    <div class="feed-head">
+                        <div class="identity">
+                            <div class="avatar">${artist.initials}</div>
+                            <div>
+                                <strong>${escapeHtml(artist.name)}</strong>
+                                <small>${escapeHtml(artist.handle)} · ${escapeHtml(artist.discipline)}</small>
+                            </div>
+                        </div>
+                        <button class="tiny-button" data-action="open-profile" data-id="${artist.id}">Profile</button>
+                    </div>
+                    <div class="feed-body">
+                        <strong>${escapeHtml(post.headline)}</strong>
+                        <p>${escapeHtml(post.body)}</p>
+                    </div>
+                    <div class="chip-row">
+                        ${post.tags.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}
+                    </div>
+                    <div class="portfolio-foot">
+                        <div class="metric-row">
+                            <span class="stat-badge">${post.stats.likes} likes</span>
+                            <span class="stat-badge">${post.stats.replies} replies</span>
+                            <span class="stat-badge">${post.stats.saves} saves</span>
+                        </div>
+                        <div class="inline-actions">
+                            <button class="tiny-button" data-action="open-brief" data-id="${artist.id}">Request work</button>
+                            <button class="tiny-button" data-action="nav" data-view="portfolio">See portfolio</button>
+                        </div>
+                    </div>
+                </article>
+            `;
+        }
+        function renderArtistCard(artist, compact) {
+            const following = state.following.includes(artist.id);
+            return `
+                <article class="artist-card">
+                    <div class="artist-head">
+                        <div class="identity">
+                            <div class="avatar">${artist.initials}</div>
+                            <div class="artist-meta">
+                                <strong>${escapeHtml(artist.name)}</strong>
+                                <small>${escapeHtml(artist.discipline)}</small>
+                            </div>
+                        </div>
+                        <button class="tiny-button" data-action="toggle-follow" data-id="${artist.id}" data-variant="${following ? "accent" : ""}">
+                            ${following ? "Following" : "Follow"}
+                        </button>
+                    </div>
+                    <div class="artist-copy">
+                        <p>${escapeHtml(artist.bio)}</p>
+                    </div>
+                    <div class="profile-pills">
+                        <span class="pill">${escapeHtml(artist.availability)}</span>
+                        <span class="pill">${escapeHtml(artist.rate)}</span>
+                    </div>
+                    ${compact ? "" : `
+                        <div class="artist-stats">
+                            <div><small>Followers</small><strong>${artist.followers}</strong></div>
+                            <div><small>Completed</small><strong>${artist.completed}</strong></div>
+                            <div><small>Rating</small><strong>${artist.satisfaction}%</strong></div>
+                        </div>
+                    `}
+                    <div class="artist-foot">
+                        <div class="chip-row">
+                            ${artist.skills.slice(0, 3).map((skill) => `<span class="tag">${escapeHtml(skill)}</span>`).join("")}
+                        </div>
+                        <div class="inline-actions">
+                            <button class="tiny-button" data-action="open-profile" data-id="${artist.id}">Open</button>
+                            <button class="tiny-button" data-action="open-brief" data-id="${artist.id}">Brief</button>
+                        </div>
+                    </div>
+                </article>
+            `;
+        }
+        function renderPortfolioView() {
+            const filters = getPortfolioFilters();
+            const items = getFilteredPortfolio();
+            return `
+                <section class="section-card portfolio-toolbar">
+                    <div class="section-header">
+                        <div class="section-title">
+                            <h4>Search by style and medium</h4>
+                            <p>Discovery is built around artistic fit, not just who posted most recently.</p>
+                        </div>
+                        <div class="metric-row">
+                            <span class="stat-badge">${items.length} visible works</span>
+                            <span class="stat-badge">${state.artists.length} artists</span>
+                        </div>
+                    </div>
+                    <div class="filter-grid">
+                        <div class="field">
+                            <label for="portfolioSearch">Search</label>
+                            <input id="portfolioSearch" type="search" placeholder="Painterly, poster art, 3D rendering" value="${escapeHtml(state.portfolioQuery)}">
+                        </div>
+                        <div class="field">
+                            <label for="portfolioStyle">Style</label>
+                            <select id="portfolioStyle">
+                                ${filters.styles.map((style) => `<option value="${escapeHtml(style)}" ${state.portfolioStyle === style ? "selected" : ""}>${escapeHtml(style)}</option>`).join("")}
+                            </select>
+                        </div>
+                        <div class="field">
+                            <label for="portfolioMedium">Medium</label>
+                            <select id="portfolioMedium">
+                                ${filters.mediums.map((medium) => `<option value="${escapeHtml(medium)}" ${state.portfolioMedium === medium ? "selected" : ""}>${escapeHtml(medium)}</option>`).join("")}
+                            </select>
+                        </div>
+                    </div>
+                </section>
+                <section class="portfolio-grid">
+                    ${items.length ? items.map((item) => renderPortfolioCard(item)).join("") : '<div class="empty-state">No portfolio cards matched that combination. Try a broader style or medium.</div>'}
+                </section>
+            `;
+        }
+        function renderPortfolioCard(item) {
+            const artist = getArtistById(item.artistId);
+            return `
+                <article class="portfolio-card">
+                    <div class="portfolio-art" style="--tone-a:${item.tones[0]}; --tone-b:${item.tones[1]}">
+                        <div class="art-overlay">
+                            <span class="art-label">${escapeHtml(item.medium)}</span>
+                            <div>
+                                <div class="art-title">${escapeHtml(item.title)}</div>
+                                <small>${escapeHtml(item.style)} · ${escapeHtml(artist.name)}</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-copy">
+                        <div class="portfolio-head">
+                            <div>
+                                <strong>${escapeHtml(item.title)}</strong>
+                                <small>${escapeHtml(artist.discipline)}</small>
+                            </div>
+                            <span class="pill">${escapeHtml(item.price)}</span>
+                        </div>
+                        <p>${escapeHtml(item.summary)}</p>
+                        <div class="chip-row">
+                            ${item.tags.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}
+                        </div>
+                        <div class="portfolio-foot">
+                            <div class="metric-row">
+                                <span class="stat-badge">${item.likes} likes</span>
+                                <span class="stat-badge">${item.saves} saves</span>
+                            </div>
+                            <div class="inline-actions">
+                                <button class="tiny-button" data-action="open-profile" data-id="${artist.id}">Artist</button>
+                                <button class="tiny-button" data-action="open-brief" data-id="${artist.id}" data-variant="accent">Request</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            `;
+        }
+        function renderCommissionView() {
+            const stageCounts = getStageCounts();
+            return `
+                <section class="summary-grid">
+                    ${stageCounts.map((entry) => `
+                        <article class="summary-card">
+                            <small>${entry.stage}</small>
+                            <strong class="summary-number">${entry.count}</strong>
+                            <p class="muted">${entry.count === 1 ? "commission" : "commissions"} currently in ${entry.stage.toLowerCase()}.</p>
+                        </article>
+                    `).join("")}
+                </section>
+                <section class="grid-two">
+                    <div class="composer-box section-card">
+                        <div class="section-header">
+                            <div class="section-title">
+                                <h4>Create a new brief</h4>
+                                <p>Start with scope, mood, usage, due date, and budget so artists can respond with clarity.</p>
+                            </div>
+                            <button class="primary-button" data-action="open-brief">Open brief form</button>
+                        </div>
+                        <div class="profile-pills">
+                            <span class="pill">Shared order history</span>
+                            <span class="pill">Revision checkpoints</span>
+                            <span class="pill">Client reminders</span>
+                        </div>
+                        <p class="muted">Each brief creates a saved order for both parties, opens an inbox thread, and feeds the kanban tracker so the work never disappears into chat alone.</p>
+                    </div>
+                    <div class="section-card">
+                        <div class="section-header">
+                            <div class="section-title">
+                                <h4>Open orders</h4>
+                                <p>Fast overview of current tracked work.</p>
+                            </div>
+                            <button class="ghost-button" data-action="nav" data-view="inbox">Open inbox</button>
+                        </div>
+                        <div class="order-list">
+                            ${state.orders.slice(0, 4).map((order) => renderOrderPreview(order)).join("")}
+                        </div>
+                    </div>
+                </section>
+                <section class="section-card">
+                    <div class="section-header">
+                        <div class="section-title">
+                            <h4>Order tracker</h4>
+                            <p>Kanban flow for the full commission lifecycle: Brief, Sketch, Revision, Final, Delivered.</p>
+                        </div>
+                    </div>
+                    <div class="kanban-board">
+                        ${ORDER_STAGES.map((stage) => renderKanbanColumn(stage)).join("")}
+                    </div>
+                </section>
+            `;
+        }
+        function renderOrderPreview(order) {
+            const artist = getArtistById(order.artistId);
+            return `
+                <article class="order-card">
+                    <div class="order-head">
+                        <div>
+                            <strong>${escapeHtml(order.title)}</strong>
+                            <small>${escapeHtml(order.client)} with ${escapeHtml(artist.name)}</small>
+                        </div>
+                        <span class="stage-tag stage-${order.stage.toLowerCase()}">${order.stage}</span>
+                    </div>
+                    <p class="order-notes">${escapeHtml(order.brief)}</p>
+                    <div class="portfolio-foot">
+                        <div class="metric-row">
+                            <span class="stat-badge">${escapeHtml(order.budget)}</span>
+                            <span class="stat-badge">Due ${formatDate(order.dueDate)}</span>
+                        </div>
+                        <button class="tiny-button" data-action="open-thread-by-order" data-id="${order.id}">Open thread</button>
+                    </div>
+                </article>
+            `;
+        }
+        function renderKanbanColumn(stage) {
+            const entries = state.orders.filter((order) => order.stage === stage);
+            return `
+                <section class="kanban-column">
+                    <header>
+                        <div>
+                            <strong>${stage}</strong>
+                            <small>${entries.length} ${entries.length === 1 ? "order" : "orders"}</small>
+                        </div>
+                        <span class="stage-tag stage-${stage.toLowerCase()}">${stage}</span>
+                    </header>
+                    ${entries.length ? entries.map((order) => renderKanbanCard(order)).join("") : '<div class="empty-state">Nothing here yet.</div>'}
+                </section>
+            `;
+        }
+        function renderKanbanCard(order) {
+            const artist = getArtistById(order.artistId);
+            const stageIndex = ORDER_STAGES.indexOf(order.stage);
+            return `
+                <article class="order-card">
+                    <div class="order-head">
+                        <div>
+                            <strong>${escapeHtml(order.title)}</strong>
+                            <small>${escapeHtml(order.client)} · ${escapeHtml(artist.name)}</small>
+                        </div>
+                        <span class="pill">${escapeHtml(order.budget)}</span>
+                    </div>
+                    <p class="order-notes">${escapeHtml(order.reminder)}</p>
+                    <div class="chip-row">
+                        <span class="tag">${escapeHtml(order.style)}</span>
+                        <span class="tag">${escapeHtml(order.medium)}</span>
+                        <span class="tag">Due ${formatDate(order.dueDate)}</span>
+                    </div>
+                    <div class="inline-actions">
+                        <button class="tiny-button" data-action="shift-stage" data-id="${order.id}" data-direction="-1" ${stageIndex === 0 ? "disabled" : ""}>Back</button>
+                        <button class="tiny-button" data-action="open-thread-by-order" data-id="${order.id}">Thread</button>
+                        <button class="tiny-button" data-action="shift-stage" data-id="${order.id}" data-direction="1" data-variant="accent" ${stageIndex === ORDER_STAGES.length - 1 ? "disabled" : ""}>Advance</button>
+                    </div>
+                </article>
+            `;
+        }
+        function renderInboxView() {
+            const activeThread = getActiveThread();
+            return `
+                <section class="thread-layout">
+                    <aside class="thread-list">
+                        <div class="list-head">
+                            <div>
+                                <h4>Negotiations</h4>
+                                <p class="muted">Messages linked to saved orders.</p>
+                            </div>
+                            <button class="tiny-button" data-action="open-brief">New brief</button>
+                        </div>
+                        <div class="thread-items">
+                            ${state.threads.map((thread) => renderThreadCard(thread)).join("")}
+                        </div>
+                    </aside>
+                    <section class="chat-panel">
+                        ${activeThread ? renderChatPanel(activeThread) : '<div class="empty-state">No active conversation yet.</div>'}
+                    </section>
+                </section>
+            `;
+        }
+        function renderThreadCard(thread) {
+            const artist = getArtistById(thread.artistId);
+            const lastMessage = thread.messages[thread.messages.length - 1];
+            return `
+                <button class="thread-item ${state.activeThreadId === thread.id ? "active" : ""}" data-action="select-thread" data-id="${thread.id}">
+                    <div class="thread-meta">
+                        <div class="identity">
+                            <div class="avatar small">${artist.initials}</div>
+                            <div>
+                                <strong>${escapeHtml(thread.subject)}</strong>
+                                <small>${escapeHtml(thread.client)} with ${escapeHtml(artist.name)}</small>
+                            </div>
+                        </div>
+                        <span class="pill">${thread.unread ? thread.unread + " new" : "Read"}</span>
+                    </div>
+                    <p class="muted" style="margin-top:10px">${escapeHtml(lastMessage.text)}</p>
+                </button>
+            `;
+        }
+        function renderChatPanel(thread) {
+            const artist = getArtistById(thread.artistId);
+            const order = state.orders.find((entry) => entry.id === thread.orderId);
+            return `
+                <div class="list-head">
+                    <div>
+                        <h4>${escapeHtml(thread.subject)}</h4>
+                        <p class="muted">${escapeHtml(thread.client)} and ${escapeHtml(artist.name)} · tracked inside ${order ? order.stage : "Brief"}</p>
+                    </div>
+                    <button class="tiny-button" data-action="open-profile" data-id="${artist.id}">Artist profile</button>
+                </div>
+                <div class="profile-pills">
+                    <span class="pill">${order ? escapeHtml(order.budget) : "Budget pending"}</span>
+                    <span class="pill">${order ? "Due " + formatDate(order.dueDate) : "Awaiting due date"}</span>
+                    <span class="pill">${order ? escapeHtml(order.medium) : "Commission"}</span>
+                </div>
+                <div class="message-stack">
+                    ${thread.messages.map((message) => renderMessageBubble(message)).join("")}
+                </div>
+                <div class="reply-box">
+                    <textarea id="replyInput" rows="4" placeholder="Reply with clarifications, approvals, or revision notes."></textarea>
+                    <div class="reply-actions">
+                        <small class="muted">Messages stay attached to the order record.</small>
+                        <button class="primary-button" data-action="send-reply" data-id="${thread.id}">Send reply</button>
+                    </div>
+                </div>
+            `;
+        }
+        function renderMessageBubble(message) {
+            const self = message.by === getCurrentUser().name;
+            return `
+                <div class="message ${self ? "self" : ""}">
+                    <div class="message-bubble">
+                        <strong>${escapeHtml(message.by)}</strong>
+                        <p>${escapeHtml(message.text)}</p>
+                        <small>${escapeHtml(message.role)} · ${escapeHtml(message.time)}</small>
+                    </div>
+                </div>
+            `;
+        }
+        function renderStudioView() {
+            const metrics = getStudioMetrics();
+            const mine = getOrdersForArtist(state.currentUserId);
+            const progress = [
+                { label: "Active queue", value: metrics.activeCount, fill: Math.min(metrics.activeCount * 22, 100), hint: "Current active commissions on your board." },
+                { label: "On-time delivery", value: metrics.onTimeRate + "%", fill: metrics.onTimeRate, hint: "Delivered jobs compared with your total tracked work." },
+                { label: "Revision load", value: metrics.revisionCount, fill: Math.min(metrics.revisionCount * 28, 100), hint: "Projects currently in revision loops." }
+            ];
+            return `
+                <section class="studio-strip">
+                    <div class="summary-grid">
+                        <article class="metric-card">
+                            <small>Active commissions</small>
+                            <strong>${metrics.activeCount}</strong>
+                            <p class="muted">Projects currently being produced for your studio.</p>
+                        </article>
+                        <article class="metric-card">
+                            <small>Tracked budget</small>
+                            <strong>$${metrics.totalBudget}</strong>
+                            <p class="muted">Visible revenue across all recorded jobs in this mock studio.</p>
+                        </article>
+                        <article class="metric-card">
+                            <small>Delivered work</small>
+                            <strong>${metrics.deliveredCount}</strong>
+                            <p class="muted">Completed commissions that are already archived as delivered.</p>
+                        </article>
+                    </div>
+                    <div class="grid-two">
+                        <section class="section-card">
+                            <div class="section-header">
+                                <div class="section-title">
+                                    <h4>Operations health</h4>
+                                    <p>Metrics framed around how artists actually work.</p>
+                                </div>
+                            </div>
+                            <div class="progress-row">
+                                ${progress.map((item) => `
+                                    <div class="progress-card">
+                                        <div class="portfolio-foot">
+                                            <strong>${item.label}</strong>
+                                            <span class="pill">${item.value}</span>
+                                        </div>
+                                        <p class="muted">${item.hint}</p>
+                                        <div class="progress-track">
+                                            <div class="progress-fill" style="width:${item.fill}%"></div>
+                                        </div>
+                                    </div>
+                                `).join("")}
+                            </div>
+                        </section>
+                        <section class="section-card">
+                            <div class="section-header">
+                                <div class="section-title">
+                                    <h4>Upcoming deliveries</h4>
+                                    <p>Deadlines surfaced before they become stressful.</p>
+                                </div>
+                            </div>
+                            <div class="order-list">
+                                ${mine.length ? mine.map((order) => renderOrderPreview(order)).join("") : '<div class="empty-state">No orders are assigned to your studio yet.</div>'}
+                            </div>
+                        </section>
+                    </div>
+                </section>
+            `;
+        }
+        function renderProfileView() {
+            const artist = getArtistById(state.selectedProfileId) || getCurrentUser();
+            const relatedWork = state.portfolio.filter((item) => item.artistId === artist.id).slice(0, 4);
+            const orders = getOrdersForArtist(artist.id);
+            const following = state.following.includes(artist.id);
+            return `
+                <section class="profile-hero">
+                    <div class="profile-main">
+                        <div class="profile-banner"></div>
+                        <div class="profile-header">
+                            <div class="profile-id">
+                                <div class="profile-avatar">${artist.initials}</div>
+                                <div>
+                                    <h3>${escapeHtml(artist.name)}</h3>
+                                    <p class="muted">${escapeHtml(artist.handle)} · ${escapeHtml(artist.discipline)}</p>
+                                    <p class="profile-bio">${escapeHtml(artist.bio)}</p>
+                                </div>
+                            </div>
+                            <div class="inline-actions">
+                                ${artist.id === state.currentUserId ? '<button class="secondary-button">Editing your profile</button>' : `
+                                    <button class="secondary-button" data-action="toggle-follow" data-id="${artist.id}">${following ? "Following" : "Follow"}</button>
+                                    <button class="primary-button" data-action="open-brief" data-id="${artist.id}">Commission</button>
+                                `}
+                            </div>
+                        </div>
+                        <div class="profile-pills">
+                            <span class="pill">${escapeHtml(artist.availability)}</span>
+                            <span class="pill">${escapeHtml(artist.rate)}</span>
+                            <span class="pill">${escapeHtml(artist.location)}</span>
+                            <span class="pill">${escapeHtml(artist.responseTime)} response time</span>
+                        </div>
+                        <div class="profile-stats">
+                            <div class="profile-stat-box">
+                                <small>Followers</small>
+                                <strong>${artist.followers}</strong>
+                            </div>
+                            <div class="profile-stat-box">
+                                <small>Completed jobs</small>
+                                <strong>${artist.completed}</strong>
+                            </div>
+                            <div class="profile-stat-box">
+                                <small>Satisfaction</small>
+                                <strong>${artist.satisfaction}%</strong>
+                            </div>
+                            <div class="profile-stat-box">
+                                <small>Tracked orders</small>
+                                <strong>${orders.length}</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <aside class="profile-side">
+                        <div class="section-title">
+                            <h4>Creative fit</h4>
+                            <p>${escapeHtml(artist.vibe)}</p>
+                        </div>
+                        <div class="progress-row" style="margin-top:16px">
+                            <div class="progress-card">
+                                <strong>Core specialties</strong>
+                                <div class="chip-row" style="margin-top:10px">
+                                    ${artist.skills.map((skill) => `<span class="tag">${escapeHtml(skill)}</span>`).join("")}
+                                </div>
+                            </div>
+                            <div class="progress-card">
+                                <strong>Why clients stay aligned</strong>
+                                <p class="muted">This profile prioritizes clarity around rates, response time, process, and delivery status instead of forcing clients to guess.</p>
+                            </div>
+                        </div>
+                    </aside>
+                </section>
+                <section class="section-card">
+                    <div class="section-header">
+                        <div class="section-title">
+                            <h4>Selected portfolio</h4>
+                            <p>Work samples designed to convert discovery into the right commission brief.</p>
+                        </div>
+                        <button class="tiny-button" data-action="nav" data-view="portfolio">Open full grid</button>
+                    </div>
+                    <div class="portfolio-grid">
+                        ${relatedWork.length ? relatedWork.map((item) => renderPortfolioCard(item)).join("") : '<div class="empty-state">No portfolio items linked to this profile yet.</div>'}
+                    </div>
+                </section>
+            `;
+        }
+        function renderBriefArtists() {
+            const select = document.getElementById("briefArtist");
+            if (!select) return;
+            select.innerHTML = state.artists.map((artist) => `
+                <option value="${artist.id}" ${artist.id === state.selectedProfileId ? "selected" : ""}>${escapeHtml(artist.name)} · ${escapeHtml(artist.discipline)}</option>
+            `).join("");
+        }
+        function openBriefModal(artistId) {
+            document.getElementById("briefModal").classList.add("open");
+            const dueInput = document.getElementById("briefDue");
+            if (!dueInput.value) {
+                const date = new Date();
+                date.setDate(date.getDate() + 9);
+                dueInput.value = date.toISOString().slice(0, 10);
+            }
+            if (artistId) {
+                state.selectedProfileId = artistId;
+                renderBriefArtists();
+                document.getElementById("briefArtist").value = artistId;
+            }
+        }
+        function closeBriefModal() {
+            document.getElementById("briefModal").classList.remove("open");
+        }
+        function setView(view) {
+            state.currentView = view;
+            render();
+        }
+        function openProfile(artistId) {
+            state.selectedProfileId = artistId;
+            state.currentView = "profile";
+            render();
+        }
+        function toggleFollow(artistId) {
+            if (artistId === state.currentUserId) return;
+            const artist = getArtistById(artistId);
+            if (!artist) return;
+            const index = state.following.indexOf(artistId);
+            if (index >= 0) {
+                state.following.splice(index, 1);
+                artist.followers = Math.max(0, artist.followers - 1);
+            } else {
+                state.following.push(artistId);
+                artist.followers += 1;
+            }
+            render();
+        }
+        function shiftStage(orderId, direction) {
+            const order = state.orders.find((entry) => entry.id === orderId);
+            if (!order) return;
+            const currentIndex = ORDER_STAGES.indexOf(order.stage);
+            const nextIndex = currentIndex + Number(direction);
+            if (nextIndex < 0 || nextIndex >= ORDER_STAGES.length) return;
+            order.stage = ORDER_STAGES[nextIndex];
+            order.reminder = order.stage === "Delivered"
+                ? "Delivered with final files and archive."
+                : `Moved to ${order.stage.toLowerCase()} and ready for the next checkpoint.`;
+            const thread = state.threads.find((entry) => entry.orderId === order.id);
+            if (thread) {
+                thread.messages.push({
+                    by: getCurrentUser().name,
+                    role: "Artist",
+                    text: `Status updated to ${order.stage}. ${order.reminder}`,
+                    time: formatDateTime()
+                });
+            }
+            render();
+        }
+        function openThreadByOrder(orderId) {
+            const thread = state.threads.find((entry) => entry.orderId === orderId);
+            if (thread) {
+                state.activeThreadId = thread.id;
+                thread.unread = 0;
+                state.currentView = "inbox";
+                render();
+            }
+        }
+        function selectThread(threadId) {
+            state.activeThreadId = threadId;
+            const thread = state.threads.find((entry) => entry.id === threadId);
+            if (thread) thread.unread = 0;
+            render();
+        }
+        function createBrief(event) {
+            event.preventDefault();
+            const form = new FormData(event.target);
+            const orderId = `order_${Date.now()}`;
+            const threadId = `thread_${Date.now()}`;
+            const artistId = form.get("artistId");
+            const artist = getArtistById(artistId);
+            const client = form.get("client").trim();
+            const title = form.get("title").trim();
+            const style = form.get("style");
+            const medium = form.get("medium");
+            const budget = form.get("budget").trim() || "Budget pending";
+            const dueDate = form.get("dueDate");
+            const brief = form.get("brief").trim();
+            const order = {
+                id: orderId,
+                artistId,
+                client,
+                title,
+                style,
+                medium,
+                budget,
+                dueDate,
+                stage: "Brief",
+                brief,
+                reminder: "Brief created. Waiting on artist acknowledgement."
+            };
+            const thread = {
+                id: threadId,
+                orderId,
+                artistId,
+                client,
+                subject: title,
+                unread: 1,
+                messages: [
+                    { by: client, role: "Client", text: `Brief created: ${brief}`, time: formatDateTime() },
+                    { by: artist.name, role: "Artist", text: "Received. I will review the scope, references, and timing before moving this into sketch.", time: formatDateTime() }
+                ]
+            };
+            state.orders.unshift(order);
+            state.threads.unshift(thread);
+            state.activeThreadId = threadId;
+            state.currentView = "inbox";
+            state.selectedProfileId = artistId;
+            event.target.reset();
+            closeBriefModal();
+            render();
+        }
+        function sendReply(threadId) {
+            const input = document.getElementById("replyInput");
+            const text = input.value.trim();
+            if (!text) return;
+            const thread = state.threads.find((entry) => entry.id === threadId);
+            if (!thread) return;
+            thread.messages.push({
+                by: getCurrentUser().name,
+                role: "Artist",
+                text,
+                time: formatDateTime()
+            });
+            input.value = "";
+            render();
+        }
+        document.addEventListener("click", (event) => {
+            const target = event.target.closest("[data-action]");
+            if (!target) return;
+            const action = target.getAttribute("data-action");
+            if (action === "nav") setView(target.getAttribute("data-view"));
+            if (action === "jump-portfolio") {
+                state.currentView = "portfolio";
+                render();
+            }
+            if (action === "open-brief") openBriefModal(target.getAttribute("data-id") || state.selectedProfileId || state.currentUserId);
+            if (action === "close-brief") closeBriefModal();
+            if (action === "open-profile") openProfile(target.getAttribute("data-id"));
+            if (action === "toggle-follow") toggleFollow(target.getAttribute("data-id"));
+            if (action === "shift-stage") shiftStage(target.getAttribute("data-id"), target.getAttribute("data-direction"));
+            if (action === "open-thread-by-order") openThreadByOrder(target.getAttribute("data-id"));
+            if (action === "select-thread") selectThread(target.getAttribute("data-id"));
+            if (action === "send-reply") sendReply(target.getAttribute("data-id"));
+        });
+        document.addEventListener("input", (event) => {
+            if (event.target.id === "globalSearch") {
+                state.portfolioQuery = event.target.value;
+                if (state.currentView === "portfolio") render();
+            }
+            if (event.target.id === "portfolioSearch") {
+                state.portfolioQuery = event.target.value;
+                render();
+            }
+        });
+        document.addEventListener("keydown", (event) => {
+            if (event.target.id === "globalSearch" && event.key === "Enter") {
+                event.preventDefault();
+                state.currentView = "portfolio";
+                render();
+            }
+        });
+        document.addEventListener("change", (event) => {
+            if (event.target.id === "portfolioStyle") {
+                state.portfolioStyle = event.target.value;
+                render();
+            }
+            if (event.target.id === "portfolioMedium") {
+                state.portfolioMedium = event.target.value;
+                render();
+            }
+        });
+        document.getElementById("briefForm").addEventListener("submit", createBrief);
+        document.getElementById("briefModal").addEventListener("click", (event) => {
+            if (event.target.id === "briefModal") closeBriefModal();
+        });
+        render();
+    </script>
+</body>
+</html>
