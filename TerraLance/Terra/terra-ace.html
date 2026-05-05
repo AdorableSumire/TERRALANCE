@@ -1732,9 +1732,9 @@
         allPosts = parsedPosts.map(normalizePost);
         notifications = storedNotifs ? JSON.parse(storedNotifs) : [];
         currentTab = storedTab || "home";
-        sessionUserId = storedSession && allUsers[storedSession] ? storedSession : Object.keys(allUsers)[0];
-        loginSelection = sessionUserId;
-        currentUser = allUsers[sessionUserId];
+        sessionUserId = storedSession && allUsers[storedSession] ? storedSession : null;
+        loginSelection = sessionUserId || Object.keys(allUsers)[0] || null;
+        currentUser = sessionUserId ? allUsers[sessionUserId] : null;
         syncBookmarksFromPosts();
         pruneMissingRelations();
     }
