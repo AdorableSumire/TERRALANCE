@@ -519,7 +519,8 @@
         .back-btn,
         .follow-btn,
         .activity-tab,
-        .add-comment {
+        .add-comment,
+        .utility-btn {
             border: 1px solid var(--line);
             color: var(--text);
             cursor: pointer;
@@ -544,7 +545,8 @@
         .back-btn:hover,
         .follow-btn:hover,
         .activity-tab:hover,
-        .add-comment:hover {
+        .add-comment:hover,
+        .utility-btn:hover {
             transform: translateY(-1px);
             background: rgba(255, 255, 255, 0.06);
             border-color: rgba(255, 255, 255, 0.18);
@@ -588,7 +590,8 @@
         }
 
         .comment-input,
-        .modal-textarea {
+        .modal-textarea,
+        .search-input {
             width: 100%;
             border: 1px solid var(--line);
             border-radius: 18px;
@@ -597,12 +600,14 @@
             outline: none;
         }
 
-        .comment-input {
+        .comment-input,
+        .search-input {
             padding: 12px 14px;
         }
 
         .comment-input:focus,
-        .modal-textarea:focus {
+        .modal-textarea:focus,
+        .search-input:focus {
             border-color: rgba(255, 106, 19, 0.34);
             box-shadow: 0 0 0 3px rgba(255, 106, 19, 0.12);
         }
@@ -617,13 +622,37 @@
             text-transform: uppercase;
         }
 
+        .app-layout {
+            display: grid;
+            grid-template-columns: 220px minmax(0, 1fr) 280px;
+            flex: 1;
+            min-height: 0;
+        }
+
+        .left-rail,
+        .right-rail {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            padding: 22px;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(0, 0, 0, 0.08));
+        }
+
+        .left-rail {
+            border-right: 1px solid var(--line);
+        }
+
+        .right-rail {
+            border-left: 1px solid var(--line);
+        }
+
         .bottom-nav {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: 1fr;
             gap: 10px;
-            padding: 18px 22px 22px;
-            border-top: 1px solid var(--line);
-            background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(0, 0, 0, 0.08));
+            padding: 0;
+            border-top: 0;
+            background: none;
         }
 
         .nav-tab {
@@ -654,22 +683,66 @@
             color: #fff4ee;
         }
 
+        .rail-panel {
+            display: grid;
+            gap: 12px;
+            padding: 16px;
+            border: 1px solid var(--line);
+            border-radius: 22px;
+            background:
+                linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent 48%),
+                rgba(255, 255, 255, 0.02);
+        }
+
+        .rail-label {
+            color: var(--muted);
+            font: 700 0.68rem/1 var(--mono);
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+        }
+
+        .rail-actions {
+            display: grid;
+            gap: 10px;
+        }
+
+        .utility-btn {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            padding: 14px 16px;
+            border-radius: 18px;
+            background: rgba(255, 255, 255, 0.03);
+            text-decoration: none;
+            text-align: left;
+            font: 700 0.72rem/1 var(--mono);
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        .utility-btn::after {
+            content: ">";
+            color: var(--accent);
+            font-size: 0.95rem;
+        }
+
         .floating-post-btn {
-            position: absolute;
-            right: 24px;
-            bottom: 104px;
-            width: 70px;
-            height: 70px;
+            position: relative;
+            right: auto;
+            bottom: auto;
+            width: 100%;
+            height: 58px;
             display: grid;
             place-items: center;
             border: 1px solid rgba(255, 106, 19, 0.28);
-            border-radius: 22px;
+            border-radius: 18px;
             background:
                 linear-gradient(135deg, rgba(255, 106, 19, 0.95), rgba(255, 146, 74, 0.76)),
                 #26140b;
             box-shadow: 0 18px 40px rgba(255, 106, 19, 0.2);
             cursor: pointer;
-            z-index: 10;
+            margin-top: auto;
             transition: transform 160ms ease, box-shadow 160ms ease;
         }
 
@@ -679,8 +752,10 @@
         }
 
         .floating-post-btn span {
-            font-size: 2rem;
+            font-size: 1rem;
             font-weight: 700;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
         }
 
         .modal-overlay,
@@ -1249,9 +1324,14 @@
                 border-radius: 22px;
             }
 
+            .app-layout {
+                grid-template-columns: 1fr;
+            }
+
             .site-header,
             .feed,
-            .bottom-nav,
+            .left-rail,
+            .right-rail,
             .modal-content,
             .profile-header {
                 padding-left: 16px;
@@ -1267,15 +1347,23 @@
                 justify-content: flex-start;
             }
 
+            .left-rail {
+                border-right: 0;
+                border-bottom: 1px solid var(--line);
+            }
+
+            .right-rail {
+                border-left: 0;
+                border-top: 1px solid var(--line);
+            }
+
             .bottom-nav {
                 grid-template-columns: repeat(2, 1fr);
             }
 
             .floating-post-btn {
-                bottom: 138px;
-                right: 16px;
-                width: 60px;
-                height: 60px;
+                width: 100%;
+                height: 56px;
                 border-radius: 18px;
             }
 
@@ -1319,14 +1407,32 @@
                 <button class="badge badge-button" id="logoutBtn" type="button">Log Out</button>
             </div>
         </div>
-        <div class="main-content" id="mainContent"><div class="loading">Synchronizing operator records...</div></div>
-        <div class="bottom-nav">
-            <button class="nav-tab active" data-tab="home"><span>01</span><strong>Home</strong></button>
-            <button class="nav-tab" data-tab="following"><span>02</span><strong>Following</strong></button>
-            <button class="nav-tab" data-tab="notifications"><span>03</span><strong>Alerts</strong></button>
-            <button class="nav-tab" data-tab="profile"><span>04</span><strong>Profile</strong></button>
+        <div class="app-layout">
+            <aside class="left-rail" aria-label="Primary navigation">
+                <div class="bottom-nav">
+                    <button class="nav-tab active" data-tab="home"><span>01</span><strong>Home</strong></button>
+                    <button class="nav-tab" data-tab="following"><span>02</span><strong>Following</strong></button>
+                    <button class="nav-tab" data-tab="notifications"><span>03</span><strong>Alerts</strong></button>
+                    <button class="nav-tab" data-tab="profile"><span>04</span><strong>Profile</strong></button>
+                </div>
+                <div class="floating-post-btn" id="floatingPostBtn" aria-label="Create post"><span>Create</span></div>
+            </aside>
+            <div class="main-content" id="mainContent"><div class="loading">Synchronizing operator records...</div></div>
+            <aside class="right-rail" aria-label="Secondary actions">
+                <div class="rail-panel">
+                    <label class="rail-label" for="terraSearch">Search</label>
+                    <input class="search-input" id="terraSearch" type="search" placeholder="Search Terra Ace">
+                </div>
+                <div class="rail-panel">
+                    <div class="rail-label">Quick Links</div>
+                    <div class="rail-actions">
+                        <a class="utility-btn" href="../index.html">Access Node</a>
+                        <a class="utility-btn" href="./Information/akinfos.html">Information</a>
+                        <a class="utility-btn" href="./Recruitment/akrecruitment.html">Recruitment</a>
+                    </div>
+                </div>
+            </aside>
         </div>
-        <div class="floating-post-btn" id="floatingPostBtn" aria-label="Create post"><span>+</span></div>
     </div>
 </div>
 
