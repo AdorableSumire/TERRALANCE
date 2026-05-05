@@ -1,0 +1,1682 @@
+[
+  {
+    "name": "Ines",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-04/%E7%AB%8B%E7%BB%98_%E4%BC%8A%E5%86%85%E4%B8%9D_1.png",
+    "imageLocalBase": "./Character Profile/0001-ines"
+  },
+  {
+    "name": "Qiubai",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-02/%E7%AB%8B%E7%BB%98_%E4%BB%87%E7%99%BD_1.png",
+    "imageLocalBase": "./Character Profile/0002-qiubai"
+  },
+  {
+    "name": "Chongyue",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-01/%E7%AB%8B%E7%BB%98_%E9%87%8D%E5%B2%B3_1.png",
+    "imageLocalBase": "./Character Profile/0003-chongyue"
+  },
+  {
+    "name": "Lin",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-01/%E7%AB%8B%E7%BB%98_%E6%9E%97_1.png",
+    "imageLocalBase": "./Character Profile/0004-lin"
+  },
+  {
+    "name": "Reed the Flame Shadow",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-12/%E7%AB%8B%E7%BB%98_%E7%84%B0%E5%BD%B1%E8%8B%87%E8%8D%89_1.png",
+    "imageLocalBase": "./Character Profile/0005-reed-the-flame-shadow"
+  },
+  {
+    "name": "Vigil",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-11/%E7%AB%8B%E7%BB%98_%E4%BC%BA%E5%A4%9C_1.png",
+    "imageLocalBase": "./Character Profile/0006-vigil"
+  },
+  {
+    "name": "Penance",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-11/%E7%AB%8B%E7%BB%98_%E6%96%A5%E7%BD%AA_1.png",
+    "imageLocalBase": "./Character Profile/0007-penance"
+  },
+  {
+    "name": "Texas the Omertosa",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-11/%E7%AB%8B%E7%BB%98_%E7%BC%84%E9%BB%98%E5%BE%B7%E5%85%8B%E8%90%A8%E6%96%AF_1.png",
+    "imageLocalBase": "./Character Profile/0008-texas-the-omertosa"
+  },
+  {
+    "name": "Stainless",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-10/%E7%AB%8B%E7%BB%98_%E7%99%BD%E9%93%81_1.png",
+    "imageLocalBase": "./Character Profile/0009-stainless"
+  },
+  {
+    "name": "Pozëmka",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-08/char_4055_bgsnow_1.png",
+    "imageLocalBase": "./Character Profile/0010-pozemka"
+  },
+  {
+    "name": "Gavial the Invincible",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-08/char_1026_gvial2_1.png",
+    "imageLocalBase": "./Character Profile/0011-gavial-the-invincible"
+  },
+  {
+    "name": "Dorothy",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-07/char_4048_doroth_1_3.png",
+    "imageLocalBase": "./Character Profile/0012-dorothy"
+  },
+  {
+    "name": "Ebenholz",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-06/char_4046_ebnhlz_1.png",
+    "imageLocalBase": "./Character Profile/0013-ebenholz"
+  },
+  {
+    "name": "Lumen",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-05/char_4042_lumen_1.png",
+    "imageLocalBase": "./Character Profile/0014-lumen"
+  },
+  {
+    "name": "Irene",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-05/char_4009_irene_1.png",
+    "imageLocalBase": "./Character Profile/0015-irene"
+  },
+  {
+    "name": "Specter the Unchained",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-05/char_1023_ghost2_1.png",
+    "imageLocalBase": "./Character Profile/0016-specter-the-unchained"
+  },
+  {
+    "name": "Horn",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-04/char_4039_horn_1.png",
+    "imageLocalBase": "./Character Profile/0017-horn"
+  },
+  {
+    "name": "Fiammetta",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-03/char_300_phenxi_1.png",
+    "imageLocalBase": "./Character Profile/0018-fiammetta"
+  },
+  {
+    "name": "Goldenglow",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-02/char_377_gdglow_1.png",
+    "imageLocalBase": "./Character Profile/0019-goldenglow"
+  },
+  {
+    "name": "Lee",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-01/char_322_lmlee_1.png",
+    "imageLocalBase": "./Character Profile/0020-lee"
+  },
+  {
+    "name": "Ling",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-01/char_2023_ling_1.png",
+    "imageLocalBase": "./Character Profile/0021-ling"
+  },
+  {
+    "name": "Gnosis",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-12/char_206_gnosis_1.png",
+    "imageLocalBase": "./Character Profile/0022-gnosis"
+  },
+  {
+    "name": "Flametail",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-11/char_420_flamtl_1.png",
+    "imageLocalBase": "./Character Profile/0023-flametail"
+  },
+  {
+    "name": "Nearl the Radiant Knight",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-11/char_1014_nearl2_1.png",
+    "imageLocalBase": "./Character Profile/0024-nearl-the-radiant-knight"
+  },
+  {
+    "name": "Fartooth",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-10/char_430_fartth_1.png",
+    "imageLocalBase": "./Character Profile/0025-fartooth"
+  },
+  {
+    "name": "Saileach",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-09/char_479_sleach_1.png",
+    "imageLocalBase": "./Character Profile/0026-saileach"
+  },
+  {
+    "name": "Mizuki",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-08/char_437_mizuki_1.png",
+    "imageLocalBase": "./Character Profile/0027-mizuki"
+  },
+  {
+    "name": "Ch'en the Holungday",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-08/char_1013_chen2_1.png",
+    "imageLocalBase": "./Character Profile/0028-ch-en-the-holungday"
+  },
+  {
+    "name": "Pallas",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-07/char_485_pallas_1.png",
+    "imageLocalBase": "./Character Profile/0029-pallas"
+  },
+  {
+    "name": "Carnelian",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-06/char_426_billro_1.png",
+    "imageLocalBase": "./Character Profile/0030-carnelian"
+  },
+  {
+    "name": "Skadi the Corrupting Heart",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-05/char_1012_skadi2_1.png",
+    "imageLocalBase": "./Character Profile/0031-skadi-the-corrupting-heart"
+  },
+  {
+    "name": "Kal'tsit",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-05/char_003_kalts_1.png",
+    "imageLocalBase": "./Character Profile/0032-kal-tsit"
+  },
+  {
+    "name": "Gladiia",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-05/char_474_glady_1.png",
+    "imageLocalBase": "./Character Profile/0033-gladiia"
+  },
+  {
+    "name": "Passenger",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-04/char_472_pasngr_1.png",
+    "imageLocalBase": "./Character Profile/0034-passenger"
+  },
+  {
+    "name": "Ash",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-03/char_456_ash_1.png",
+    "imageLocalBase": "./Character Profile/0035-ash"
+  },
+  {
+    "name": "Dusk",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-02/char_2015_dusk_1.png",
+    "imageLocalBase": "./Character Profile/0036-dusk"
+  },
+  {
+    "name": "Saga",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-02/char_362_saga_1.png",
+    "imageLocalBase": "./Character Profile/0037-saga"
+  },
+  {
+    "name": "Archetto",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-01/char_332_archet_1.png",
+    "imageLocalBase": "./Character Profile/0038-archetto"
+  },
+  {
+    "name": "Mountain",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-12/char_264_f12yin_1.png",
+    "imageLocalBase": "./Character Profile/0039-mountain"
+  },
+  {
+    "name": "Mudrock",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-11/char_311_mudrok_1.png",
+    "imageLocalBase": "./Character Profile/0040-mudrock"
+  },
+  {
+    "name": "Rosmontis",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-11/char_391_rosmon_1.png",
+    "imageLocalBase": "./Character Profile/0041-rosmontis"
+  },
+  {
+    "name": "Blemishine",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-10/char_423_blemsh_1.png",
+    "imageLocalBase": "./Character Profile/0042-blemishine"
+  },
+  {
+    "name": "Surtr",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-09/char_350_surtr_1.png",
+    "imageLocalBase": "./Character Profile/0043-surtr"
+  },
+  {
+    "name": "Eunectes",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-08/char_416_zumama_1.png",
+    "imageLocalBase": "./Character Profile/0044-eunectes"
+  },
+  {
+    "name": "Thorns",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-08/char_293_thorns_1.png",
+    "imageLocalBase": "./Character Profile/0045-thorns"
+  },
+  {
+    "name": "Suzuran",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-07/char_358_lisa_1.png",
+    "imageLocalBase": "./Character Profile/0046-suzuran"
+  },
+  {
+    "name": "Rosa (Poca)",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-06/char_197_poca_1_1.png",
+    "imageLocalBase": "./Character Profile/0047-rosa-poca"
+  },
+  {
+    "name": "Weedy",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-05/char_400_weedy_1_0.png",
+    "imageLocalBase": "./Character Profile/0048-weedy"
+  },
+  {
+    "name": "W",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-05/char_113_cqbw_1_0.png",
+    "imageLocalBase": "./Character Profile/0049-w"
+  },
+  {
+    "name": "Phantom",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-04/char_250_phatom_1.png",
+    "imageLocalBase": "./Character Profile/0050-phantom"
+  },
+  {
+    "name": "Bagpipe",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-03/char_222_bpipe_1.png",
+    "imageLocalBase": "./Character Profile/0051-bagpipe"
+  },
+  {
+    "name": "Ceobe",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-02/char_2013_cerber_1.png",
+    "imageLocalBase": "./Character Profile/0052-ceobe"
+  },
+  {
+    "name": "Nian",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-01/char_2014_nian_1_0.png",
+    "imageLocalBase": "./Character Profile/0053-nian"
+  },
+  {
+    "name": "Aak",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-01/char_225_haak_1_0.png",
+    "imageLocalBase": "./Character Profile/0054-aak"
+  },
+  {
+    "name": "Blaze",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-12/char_017_huang_1_0.png",
+    "imageLocalBase": "./Character Profile/0055-blaze"
+  },
+  {
+    "name": "Mostima",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-11/char_213_mostma_1_2.png",
+    "imageLocalBase": "./Character Profile/0056-mostima"
+  },
+  {
+    "name": "Magallan",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_248_mgllan_1_1.png",
+    "imageLocalBase": "./Character Profile/0057-magallan"
+  },
+  {
+    "name": "Hellagur",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_188_helage_1_0.png",
+    "imageLocalBase": "./Character Profile/0058-hellagur"
+  },
+  {
+    "name": "Schwarz",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_340_shwaz_1_0.png",
+    "imageLocalBase": "./Character Profile/0059-schwarz"
+  },
+  {
+    "name": "Ch'en",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_010_chen_1_0.png",
+    "imageLocalBase": "./Character Profile/0060-ch-en"
+  },
+  {
+    "name": "Skadi",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_263_skadi_1.png",
+    "imageLocalBase": "./Character Profile/0061-skadi"
+  },
+  {
+    "name": "SilverAsh",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_172_svrash_1.png",
+    "imageLocalBase": "./Character Profile/0062-silverash"
+  },
+  {
+    "name": "Saria",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_202_demkni_1.png",
+    "imageLocalBase": "./Character Profile/0063-saria"
+  },
+  {
+    "name": "Hoshiguma",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_136_hsguma_1.png",
+    "imageLocalBase": "./Character Profile/0064-hoshiguma"
+  },
+  {
+    "name": "Nightingale",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_179_cgbird_1.png",
+    "imageLocalBase": "./Character Profile/0065-nightingale"
+  },
+  {
+    "name": "Shining",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_147_shining_1.png",
+    "imageLocalBase": "./Character Profile/0066-shining"
+  },
+  {
+    "name": "Angelina",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_291_aglina_1.png",
+    "imageLocalBase": "./Character Profile/0067-angelina"
+  },
+  {
+    "name": "Eyjafjalla",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_180_amgoat_1.png",
+    "imageLocalBase": "./Character Profile/0068-eyjafjalla"
+  },
+  {
+    "name": "Ifrit",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_134_ifrit_1.png",
+    "imageLocalBase": "./Character Profile/0069-ifrit"
+  },
+  {
+    "name": "Siege",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_112_siege_1.png",
+    "imageLocalBase": "./Character Profile/0070-siege"
+  },
+  {
+    "name": "Exusiai",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_103_angel_1.png",
+    "imageLocalBase": "./Character Profile/0071-exusiai"
+  },
+  {
+    "name": "Cement",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-04/%E7%AB%8B%E7%BB%98_%E6%B4%8B%E7%81%B0_1.png",
+    "imageLocalBase": "./Character Profile/0072-cement"
+  },
+  {
+    "name": "Morgan",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-04/%E7%AB%8B%E7%BB%98_%E6%91%A9%E6%A0%B9_1.png",
+    "imageLocalBase": "./Character Profile/0073-morgan"
+  },
+  {
+    "name": "Rathalos S Noir Corne",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-03/char_1030_noirc2_1.png",
+    "imageLocalBase": "./Character Profile/0074-rathalos-s-noir-corne"
+  },
+  {
+    "name": "Wind Chimes",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-02/%E7%AB%8B%E7%BB%98_%E9%93%8E%E9%93%83_1.png",
+    "imageLocalBase": "./Character Profile/0075-wind-chimes"
+  },
+  {
+    "name": "Firewhistle",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-01/%E7%AB%8B%E7%BB%98_%E7%81%AB%E5%93%A8_1.png",
+    "imageLocalBase": "./Character Profile/0076-firewhistle"
+  },
+  {
+    "name": "Jieyun",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-01/%E7%AB%8B%E7%BB%98_%E6%88%AA%E4%BA%91_1.png",
+    "imageLocalBase": "./Character Profile/0077-jieyun"
+  },
+  {
+    "name": "Harmonie",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-12/%E7%AB%8B%E7%BB%98_%E5%92%8C%E5%BC%A6_1.png",
+    "imageLocalBase": "./Character Profile/0078-harmonie"
+  },
+  {
+    "name": "Puzzle",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-12/%E7%AB%8B%E7%BB%98_%E8%B0%9C%E5%9B%BE_1.png",
+    "imageLocalBase": "./Character Profile/0079-puzzle"
+  },
+  {
+    "name": "Qanipalaat",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-11/%E7%AB%8B%E7%BB%98_%E9%9B%AA%E7%BB%92_1.png",
+    "imageLocalBase": "./Character Profile/0080-qanipalaat"
+  },
+  {
+    "name": "Lunacub",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-11/%E7%AB%8B%E7%BB%98_%E5%AD%90%E6%9C%88_1.png",
+    "imageLocalBase": "./Character Profile/0081-lunacub"
+  },
+  {
+    "name": "Paprika",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-10/%E7%AB%8B%E7%BB%98_%E6%98%8E%E6%A4%92_1.png",
+    "imageLocalBase": "./Character Profile/0082-paprika"
+  },
+  {
+    "name": "Dagda",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-10/%E7%AB%8B%E7%BB%98_%E8%BE%BE%E6%A0%BC%E8%BE%BE_1.png",
+    "imageLocalBase": "./Character Profile/0083-dagda"
+  },
+  {
+    "name": "Highmore",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-10/%E7%AB%8B%E7%BB%98_%E6%B5%B7%E6%B2%AB_1.png",
+    "imageLocalBase": "./Character Profile/0084-highmore"
+  },
+  {
+    "name": "Proviso",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-09/%E7%AB%8B%E7%BB%98_%E4%BD%86%E4%B9%A6_1.png",
+    "imageLocalBase": "./Character Profile/0085-proviso"
+  },
+  {
+    "name": "Cantabile",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-08/char_497_ctable_1.png",
+    "imageLocalBase": "./Character Profile/0086-cantabile"
+  },
+  {
+    "name": "Minimalist",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-08/%E7%AB%8B%E7%BB%98_%E8%87%B3%E7%AE%80_1.png",
+    "imageLocalBase": "./Character Profile/0087-minimalist"
+  },
+  {
+    "name": "Greyy the Lightningbearer",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-07/char_1027_greyy2_1.png",
+    "imageLocalBase": "./Character Profile/0088-greyy-the-lightningbearer"
+  },
+  {
+    "name": "Astgenne",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-07/char_135_halo_1.png",
+    "imageLocalBase": "./Character Profile/0089-astgenne"
+  },
+  {
+    "name": "Hibiscus the Purifier",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-06/char_1024_hbisc2_1.png",
+    "imageLocalBase": "./Character Profile/0090-hibiscus-the-purifier"
+  },
+  {
+    "name": "Czerny",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-06/char_4047_pianst_1.png",
+    "imageLocalBase": "./Character Profile/0091-czerny"
+  },
+  {
+    "name": "Erato",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-05/EratoE0E1.png",
+    "imageLocalBase": "./Character Profile/0092-erato"
+  },
+  {
+    "name": "Windflit",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-05/char_433_windft_1.png",
+    "imageLocalBase": "./Character Profile/0093-windflit"
+  },
+  {
+    "name": "Rockrock",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-04/char_4040_rockr_1.png",
+    "imageLocalBase": "./Character Profile/0094-rockrock"
+  },
+  {
+    "name": "Heidi",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-04/char_4045_heidi_1.png",
+    "imageLocalBase": "./Character Profile/0095-heidi"
+  },
+  {
+    "name": "Kazemaru",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-03/char_4016_kazema_1.png",
+    "imageLocalBase": "./Character Profile/0096-kazemaru"
+  },
+  {
+    "name": "Enforcer",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-03/char_4036_forcer_1.png",
+    "imageLocalBase": "./Character Profile/0097-enforcer"
+  },
+  {
+    "name": "Quercus",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-02/char_492_quercu_1.png",
+    "imageLocalBase": "./Character Profile/0098-quercus"
+  },
+  {
+    "name": "Kroos the Keen Glint",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-01/char_1021_kroos2_1.png",
+    "imageLocalBase": "./Character Profile/0099-kroos-the-keen-glint"
+  },
+  {
+    "name": "Blacknight",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-01/char_476_blkngt_1.png",
+    "imageLocalBase": "./Character Profile/0100-blacknight"
+  },
+  {
+    "name": "Shalem",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-01/char_4025_aprot2_1.png",
+    "imageLocalBase": "./Character Profile/0101-shalem"
+  },
+  {
+    "name": "Aurora",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-12/char_422_aurora_1.png",
+    "imageLocalBase": "./Character Profile/0102-aurora"
+  },
+  {
+    "name": "Kjera",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-12/char_4013_kjera_1.png",
+    "imageLocalBase": "./Character Profile/0103-kjera"
+  },
+  {
+    "name": "Nine-Colored Deer",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-01/char_4019_ncdeer_1.png",
+    "imageLocalBase": "./Character Profile/0104-nine-colored-deer"
+  },
+  {
+    "name": "Honeyberry",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-11/char_449_glider_1.png",
+    "imageLocalBase": "./Character Profile/0105-honeyberry"
+  },
+  {
+    "name": "Wild Mane",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-11/char_496_wildmn_1.png",
+    "imageLocalBase": "./Character Profile/0106-wild-mane"
+  },
+  {
+    "name": "Corroserum",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-11/char_489_serum_1.png",
+    "imageLocalBase": "./Character Profile/0107-corroserum"
+  },
+  {
+    "name": "Ashlock",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-10/char_431_ashlok_1.png",
+    "imageLocalBase": "./Character Profile/0108-ashlock"
+  },
+  {
+    "name": "Mulberry",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-09/char_473_mberry_1.png",
+    "imageLocalBase": "./Character Profile/0109-mulberry"
+  },
+  {
+    "name": "Tequila",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-08/char_486_takila_1.png",
+    "imageLocalBase": "./Character Profile/0110-tequila"
+  },
+  {
+    "name": "La Pluma",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-08/char_421_crow_1.png",
+    "imageLocalBase": "./Character Profile/0111-la-pluma"
+  },
+  {
+    "name": "Kirara",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-06/char_478_kirara_1.png",
+    "imageLocalBase": "./Character Profile/0112-kirara"
+  },
+  {
+    "name": "Bena",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-06/char_369_bena_1.png",
+    "imageLocalBase": "./Character Profile/0113-bena"
+  },
+  {
+    "name": "Akafuyu",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-05/char_475_akafyu_1.png",
+    "imageLocalBase": "./Character Profile/0114-akafuyu"
+  },
+  {
+    "name": "Toddifons",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-04/char_363_toddi_1.png",
+    "imageLocalBase": "./Character Profile/0115-toddifons"
+  },
+  {
+    "name": "Heavyrain",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-04/char_304_zebra_1.png",
+    "imageLocalBase": "./Character Profile/0116-heavyrain"
+  },
+  {
+    "name": "Frost",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-03/char_458_rfrost_1.png",
+    "imageLocalBase": "./Character Profile/0117-frost"
+  },
+  {
+    "name": "Blitz",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-03/char_457_blitz_1.png",
+    "imageLocalBase": "./Character Profile/0118-blitz"
+  },
+  {
+    "name": "Tachanka",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-03/char_459_tachak_1.png",
+    "imageLocalBase": "./Character Profile/0119-tachanka"
+  },
+  {
+    "name": "Mr. Nothing",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-02/char_455_nothin_1.png",
+    "imageLocalBase": "./Character Profile/0120-mr-nothing"
+  },
+  {
+    "name": "Lava the Purgatory",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-02/char_1011_lava2_1.png",
+    "imageLocalBase": "./Character Profile/0121-lava-the-purgatory"
+  },
+  {
+    "name": "Tuye",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-01/char_402_tuye_1.png",
+    "imageLocalBase": "./Character Profile/0122-tuye"
+  },
+  {
+    "name": "Iris",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-01/char_338_iris_1.png",
+    "imageLocalBase": "./Character Profile/0123-iris"
+  },
+  {
+    "name": "Robin",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-12/char_451_robin_1.png",
+    "imageLocalBase": "./Character Profile/0124-robin"
+  },
+  {
+    "name": "Kafka",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-12/char_214_kafka_1.png",
+    "imageLocalBase": "./Character Profile/0125-kafka"
+  },
+  {
+    "name": "Amiya (Guard)",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-11/char_1001_amiya2_2_0.png",
+    "imageLocalBase": "./Character Profile/0126-amiya-guard"
+  },
+  {
+    "name": "Whisperain",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-11/char_436_whispr_1.png",
+    "imageLocalBase": "./Character Profile/0127-whisperain"
+  },
+  {
+    "name": "Aosta",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-10/char_346_aosta_1.png",
+    "imageLocalBase": "./Character Profile/0128-aosta"
+  },
+  {
+    "name": "Whislash",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-10/char_265_sophia_1.png",
+    "imageLocalBase": "./Character Profile/0129-whislash"
+  },
+  {
+    "name": "April",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-09/char_365_aprl_1.png",
+    "imageLocalBase": "./Character Profile/0130-april"
+  },
+  {
+    "name": "Mint",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-09/char_388_mint_1.png",
+    "imageLocalBase": "./Character Profile/0131-mint"
+  },
+  {
+    "name": "Touch",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-08/char_510_amedic_1.png",
+    "imageLocalBase": "./Character Profile/0132-touch"
+  },
+  {
+    "name": "Pith",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-08/char_509_acast_1_0.png",
+    "imageLocalBase": "./Character Profile/0133-pith"
+  },
+  {
+    "name": "Stormeye",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-08/char_511_asnipe_1_0.png",
+    "imageLocalBase": "./Character Profile/0134-stormeye"
+  },
+  {
+    "name": "Sharp",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-08/char_508_aguard_1_0.png",
+    "imageLocalBase": "./Character Profile/0135-sharp"
+  },
+  {
+    "name": "Flint",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-08/char_415_flint_1.png",
+    "imageLocalBase": "./Character Profile/0136-flint"
+  },
+  {
+    "name": "Tomimi",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-08/char_411_tomimi_1.png",
+    "imageLocalBase": "./Character Profile/0137-tomimi"
+  },
+  {
+    "name": "Andreana",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-08/char_218_cuttle_1.png",
+    "imageLocalBase": "./Character Profile/0138-andreana"
+  },
+  {
+    "name": "Chiave",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-07/char_349_chiave_1.png",
+    "imageLocalBase": "./Character Profile/0139-chiave"
+  },
+  {
+    "name": "Beeswax",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-07/char_344_beewax_1.png",
+    "imageLocalBase": "./Character Profile/0140-beeswax"
+  },
+  {
+    "name": "Scene",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-07/char_336_folivo_1.png",
+    "imageLocalBase": "./Character Profile/0141-scene"
+  },
+  {
+    "name": "Ayerscarpe",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-07/char_294_ayer_1.png",
+    "imageLocalBase": "./Character Profile/0142-ayerscarpe"
+  },
+  {
+    "name": "Folinic",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-07/char_345_folnic_1.png",
+    "imageLocalBase": "./Character Profile/0143-folinic"
+  },
+  {
+    "name": "Leonhardt",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-06/char_373_lionhd_1.png",
+    "imageLocalBase": "./Character Profile/0144-leonhardt"
+  },
+  {
+    "name": "Absinthe",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-06/char_405_absin_1.png",
+    "imageLocalBase": "./Character Profile/0145-absinthe"
+  },
+  {
+    "name": "Tsukinogi",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-06/ArtTsukinogiBase.png",
+    "imageLocalBase": "./Character Profile/0146-tsukinogi"
+  },
+  {
+    "name": "Asbestos",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-06/ArtAsbestosBase.png",
+    "imageLocalBase": "./Character Profile/0147-asbestos"
+  },
+  {
+    "name": "Elysium",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-05/char_401_elysm_1.png",
+    "imageLocalBase": "./Character Profile/0148-elysium"
+  },
+  {
+    "name": "Shamare",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-04/char_254_vodfox_1.png",
+    "imageLocalBase": "./Character Profile/0149-shamare"
+  },
+  {
+    "name": "Sideroca",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-04/char_333_sidero_1.png",
+    "imageLocalBase": "./Character Profile/0150-sideroca"
+  },
+  {
+    "name": "Sesa",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-03/char_379_sesa_1.png",
+    "imageLocalBase": "./Character Profile/0151-sesa"
+  },
+  {
+    "name": "Bibeak",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-03/char_252_bibeak_1.png",
+    "imageLocalBase": "./Character Profile/0152-bibeak"
+  },
+  {
+    "name": "Leizi",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-02/char_306_leizi_1.png",
+    "imageLocalBase": "./Character Profile/0153-leizi"
+  },
+  {
+    "name": "Hung",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-01/char_226_hmau_1_0.png",
+    "imageLocalBase": "./Character Profile/0154-hung"
+  },
+  {
+    "name": "Snowsant",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-01/char_383_snsant_1_12.png",
+    "imageLocalBase": "./Character Profile/0155-snowsant"
+  },
+  {
+    "name": "GreyThroat",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-12/char_367_swllow_1_0.png",
+    "imageLocalBase": "./Character Profile/0156-greythroat"
+  },
+  {
+    "name": "Broca",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-12/char_356_broca_1_0.png",
+    "imageLocalBase": "./Character Profile/0157-broca"
+  },
+  {
+    "name": "Reed",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-12/char_261_sddrag_1_0.png",
+    "imageLocalBase": "./Character Profile/0158-reed"
+  },
+  {
+    "name": "Bison",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-11/char_325_bison_1_7.png",
+    "imageLocalBase": "./Character Profile/0159-bison"
+  },
+  {
+    "name": "Waai Fu",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-11/char_243_waaifu_1_4.png",
+    "imageLocalBase": "./Character Profile/0160-waai-fu"
+  },
+  {
+    "name": "Ceylon",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-11/char_348_ceylon_1_0.png",
+    "imageLocalBase": "./Character Profile/0161-ceylon"
+  },
+  {
+    "name": "Flamebringer",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-11/char_131_flameb_1.png",
+    "imageLocalBase": "./Character Profile/0162-flamebringer"
+  },
+  {
+    "name": "Breeze",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-11/char_260_breeze_1.png",
+    "imageLocalBase": "./Character Profile/0163-breeze"
+  },
+  {
+    "name": "Executor",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_279_excu_1_0.png",
+    "imageLocalBase": "./Character Profile/0164-executor"
+  },
+  {
+    "name": "Astesia",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_274_astesi_1_1.png",
+    "imageLocalBase": "./Character Profile/0165-astesia"
+  },
+  {
+    "name": "Glaucus",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_326_glacus_1_0.png",
+    "imageLocalBase": "./Character Profile/0166-glaucus"
+  },
+  {
+    "name": "Swire",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_308_swire_1_0.png",
+    "imageLocalBase": "./Character Profile/0167-swire"
+  },
+  {
+    "name": "Grani",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_220_grani_1.png",
+    "imageLocalBase": "./Character Profile/0168-grani"
+  },
+  {
+    "name": "Nightmare",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_164_nightm_1.png",
+    "imageLocalBase": "./Character Profile/0169-nightmare"
+  },
+  {
+    "name": "Savage",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_230_savage_1.png",
+    "imageLocalBase": "./Character Profile/0170-savage"
+  },
+  {
+    "name": "FEater",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_241_panda_1.png",
+    "imageLocalBase": "./Character Profile/0171-feater"
+  },
+  {
+    "name": "Manticore",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_215_mantic_1.png",
+    "imageLocalBase": "./Character Profile/0172-manticore"
+  },
+  {
+    "name": "Sora",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_101_sora_1.png",
+    "imageLocalBase": "./Character Profile/0173-sora"
+  },
+  {
+    "name": "Istina",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_195_glassb_1.png",
+    "imageLocalBase": "./Character Profile/0174-istina"
+  },
+  {
+    "name": "Pramanix",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_174_slbell_1.png",
+    "imageLocalBase": "./Character Profile/0175-pramanix"
+  },
+  {
+    "name": "Cliffheart",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_173_slchan_1.png",
+    "imageLocalBase": "./Character Profile/0176-cliffheart"
+  },
+  {
+    "name": "Firewatch",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_158_milu_1.png",
+    "imageLocalBase": "./Character Profile/0177-firewatch"
+  },
+  {
+    "name": "Provence",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_145_prove_1.png",
+    "imageLocalBase": "./Character Profile/0178-provence"
+  },
+  {
+    "name": "Vulcan",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_163_hpsts_1.png",
+    "imageLocalBase": "./Character Profile/0179-vulcan"
+  },
+  {
+    "name": "Croissant",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_201_moeshd_1.png",
+    "imageLocalBase": "./Character Profile/0180-croissant"
+  },
+  {
+    "name": "Liskarm",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_107_liskam_1.png",
+    "imageLocalBase": "./Character Profile/0181-liskarm"
+  },
+  {
+    "name": "Projekt Red",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_144_red_1.png",
+    "imageLocalBase": "./Character Profile/0182-projekt-red"
+  },
+  {
+    "name": "Nearl",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_148_nearl_1.png",
+    "imageLocalBase": "./Character Profile/0183-nearl"
+  },
+  {
+    "name": "Warfarin",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_171_bldsk_1.png",
+    "imageLocalBase": "./Character Profile/0184-warfarin"
+  },
+  {
+    "name": "Silence",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_108_silent_1.png",
+    "imageLocalBase": "./Character Profile/0185-silence"
+  },
+  {
+    "name": "Mayer",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_242_otter_1.png",
+    "imageLocalBase": "./Character Profile/0186-mayer"
+  },
+  {
+    "name": "Skyfire",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_166_skfire_1.png",
+    "imageLocalBase": "./Character Profile/0187-skyfire"
+  },
+  {
+    "name": "Amiya",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_002_amiya_1.png",
+    "imageLocalBase": "./Character Profile/0188-amiya"
+  },
+  {
+    "name": "Meteorite",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_219_meteo_1.png",
+    "imageLocalBase": "./Character Profile/0189-meteorite"
+  },
+  {
+    "name": "Platinum",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_204_platnm_1.png",
+    "imageLocalBase": "./Character Profile/0190-platinum"
+  },
+  {
+    "name": "Blue Poison",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_129_bluep_1.png",
+    "imageLocalBase": "./Character Profile/0191-blue-poison"
+  },
+  {
+    "name": "Specter",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_143_ghost_1.png",
+    "imageLocalBase": "./Character Profile/0192-specter"
+  },
+  {
+    "name": "Lappland",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_140_whitew_1.png",
+    "imageLocalBase": "./Character Profile/0193-lappland"
+  },
+  {
+    "name": "Indra",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_155_tiger_1.png",
+    "imageLocalBase": "./Character Profile/0194-indra"
+  },
+  {
+    "name": "Franka",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_106_franka_1.png",
+    "imageLocalBase": "./Character Profile/0195-franka"
+  },
+  {
+    "name": "Texas",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_102_texas_1.png",
+    "imageLocalBase": "./Character Profile/0196-texas"
+  },
+  {
+    "name": "Zima",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_115_headbr_1.png",
+    "imageLocalBase": "./Character Profile/0197-zima"
+  },
+  {
+    "name": "Ptilopsis",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_128_plosis_1.png",
+    "imageLocalBase": "./Character Profile/0198-ptilopsis"
+  },
+  {
+    "name": "Humus",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-04/%E7%AB%8B%E7%BB%98_%E4%BC%91%E8%B0%9F%E6%96%AF_1.png",
+    "imageLocalBase": "./Character Profile/0199-humus"
+  },
+  {
+    "name": "Quartz",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-11/%E7%AB%8B%E7%BB%98_%E7%9F%B3%E8%8B%B1_1.png",
+    "imageLocalBase": "./Character Profile/0200-quartz"
+  },
+  {
+    "name": "Totter",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-10/%E7%AB%8B%E7%BB%98_%E9%93%85%E8%B8%9D_1.png",
+    "imageLocalBase": "./Character Profile/0201-totter"
+  },
+  {
+    "name": "Luo Xiaohei",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-09/%E7%AB%8B%E7%BB%98_%E7%BD%97%E5%B0%8F%E9%BB%91_1.png",
+    "imageLocalBase": "./Character Profile/0202-luo-xiaohei"
+  },
+  {
+    "name": "Chestnut",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-04/char_4041_chnut_1.png",
+    "imageLocalBase": "./Character Profile/0203-chestnut"
+  },
+  {
+    "name": "Pudding",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-11/char_4004_pudd_1.png",
+    "imageLocalBase": "./Character Profile/0204-pudding"
+  },
+  {
+    "name": "Roberta",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-09/char_484_robrta_1.png",
+    "imageLocalBase": "./Character Profile/0205-roberta"
+  },
+  {
+    "name": "Indigo",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-06/char_469_indigo_1.png",
+    "imageLocalBase": "./Character Profile/0206-indigo"
+  },
+  {
+    "name": "Beanstalk",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-01/char_452_bstalk_1.png",
+    "imageLocalBase": "./Character Profile/0207-beanstalk"
+  },
+  {
+    "name": "Pinecone",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-12/char_440_pinecn_1.png",
+    "imageLocalBase": "./Character Profile/0208-pinecone"
+  },
+  {
+    "name": "Bubble",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-10/char_381_bubble_1.png",
+    "imageLocalBase": "./Character Profile/0209-bubble"
+  },
+  {
+    "name": "Arene",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-09/char_271_spikes_1.png",
+    "imageLocalBase": "./Character Profile/0210-arene"
+  },
+  {
+    "name": "Aciddrop",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-08/char_366_acdrop_1.png",
+    "imageLocalBase": "./Character Profile/0211-aciddrop"
+  },
+  {
+    "name": "Jaye",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-08/char_272_strong_1.png",
+    "imageLocalBase": "./Character Profile/0212-jaye"
+  },
+  {
+    "name": "Click",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-07/char_328_cammou_1_0.png",
+    "imageLocalBase": "./Character Profile/0213-click"
+  },
+  {
+    "name": "Podenco",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-06/char_258_podego_1.png",
+    "imageLocalBase": "./Character Profile/0214-podenco"
+  },
+  {
+    "name": "Jackie",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-11/char_347_jaksel_1.png",
+    "imageLocalBase": "./Character Profile/0215-jackie"
+  },
+  {
+    "name": "Cutter",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-04/char_301_cutter_1.png",
+    "imageLocalBase": "./Character Profile/0216-cutter"
+  },
+  {
+    "name": "Conviction",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-04/char_159_peacok_1.png",
+    "imageLocalBase": "./Character Profile/0217-conviction"
+  },
+  {
+    "name": "Utage",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-03/char_337_utage_1.png",
+    "imageLocalBase": "./Character Profile/0218-utage"
+  },
+  {
+    "name": "Purestream",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-03/ArtPurestreamE1.png",
+    "imageLocalBase": "./Character Profile/0219-purestream"
+  },
+  {
+    "name": "Ambriel",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-12/char_302_glaze_1_0.png",
+    "imageLocalBase": "./Character Profile/0220-ambriel"
+  },
+  {
+    "name": "May",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-11/char_133_mm_1_0.png",
+    "imageLocalBase": "./Character Profile/0221-may"
+  },
+  {
+    "name": "Ethan",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-11/char_355_ethan_1.png",
+    "imageLocalBase": "./Character Profile/0222-ethan"
+  },
+  {
+    "name": "Dur-nar",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-11/char_260_durnar_1_4%5B1%5D.png",
+    "imageLocalBase": "./Character Profile/0223-dur-nar"
+  },
+  {
+    "name": "Vermeil",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_190_clour_1_0.png",
+    "imageLocalBase": "./Character Profile/0224-vermeil"
+  },
+  {
+    "name": "Myrtle",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_151_myrtle_1_0.png",
+    "imageLocalBase": "./Character Profile/0225-myrtle"
+  },
+  {
+    "name": "Sussurro",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_298_susuro_1_0.png",
+    "imageLocalBase": "./Character Profile/0226-sussurro"
+  },
+  {
+    "name": "Greyy",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_253_greyy_1_0.png",
+    "imageLocalBase": "./Character Profile/0227-greyy"
+  },
+  {
+    "name": "Beehunter",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_137_brownb_1.png",
+    "imageLocalBase": "./Character Profile/0228-beehunter"
+  },
+  {
+    "name": "Shaw",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_277_sqrrel_1.png",
+    "imageLocalBase": "./Character Profile/0229-shaw"
+  },
+  {
+    "name": "Earthspirit",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_183_skgoat_1.png",
+    "imageLocalBase": "./Character Profile/0230-earthspirit"
+  },
+  {
+    "name": "Deepcolor",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_110_deepcl_1.png",
+    "imageLocalBase": "./Character Profile/0231-deepcolor"
+  },
+  {
+    "name": "Gummy",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_196_sunbr_1.png",
+    "imageLocalBase": "./Character Profile/0232-gummy"
+  },
+  {
+    "name": "Cuora",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_150_snakek_1.png",
+    "imageLocalBase": "./Character Profile/0233-cuora"
+  },
+  {
+    "name": "Matterhorn",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_199_yak_1.png",
+    "imageLocalBase": "./Character Profile/0234-matterhorn"
+  },
+  {
+    "name": "Perfumer",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_181_flower_1.png",
+    "imageLocalBase": "./Character Profile/0235-perfumer"
+  },
+  {
+    "name": "Gavial",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_187_ccheal_1.png",
+    "imageLocalBase": "./Character Profile/0236-gavial"
+  },
+  {
+    "name": "Myrrh",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_117_myrrh_1.png",
+    "imageLocalBase": "./Character Profile/0237-myrrh"
+  },
+  {
+    "name": "Rope",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_236_rope_1.png",
+    "imageLocalBase": "./Character Profile/0238-rope"
+  },
+  {
+    "name": "Gravel",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_237_gravel_1.png",
+    "imageLocalBase": "./Character Profile/0239-gravel"
+  },
+  {
+    "name": "Mousse",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_185_frncat_1.png",
+    "imageLocalBase": "./Character Profile/0240-mousse"
+  },
+  {
+    "name": "Estelle",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_127_estell_1.png",
+    "imageLocalBase": "./Character Profile/0241-estelle"
+  },
+  {
+    "name": "Frostleaf",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_193_frostl_1.png",
+    "imageLocalBase": "./Character Profile/0242-frostleaf"
+  },
+  {
+    "name": "Matoimaru",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_289_gyuki_1.png",
+    "imageLocalBase": "./Character Profile/0243-matoimaru"
+  },
+  {
+    "name": "Dobermann",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_130_doberm_1.png",
+    "imageLocalBase": "./Character Profile/0244-dobermann"
+  },
+  {
+    "name": "Vigna",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_290_vigna_1.png",
+    "imageLocalBase": "./Character Profile/0245-vigna"
+  },
+  {
+    "name": "Scavenger",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_149_scave_1.png",
+    "imageLocalBase": "./Character Profile/0246-scavenger"
+  },
+  {
+    "name": "Courier",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_198_blackd_1.png",
+    "imageLocalBase": "./Character Profile/0247-courier"
+  },
+  {
+    "name": "Shirayuki",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_118_yuki_1.png",
+    "imageLocalBase": "./Character Profile/0248-shirayuki"
+  },
+  {
+    "name": "Meteor",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_126_shotst_1.png",
+    "imageLocalBase": "./Character Profile/0249-meteor"
+  },
+  {
+    "name": "Jessica",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_235_jesica_1.png",
+    "imageLocalBase": "./Character Profile/0250-jessica"
+  },
+  {
+    "name": "Gitano",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_109_fmout_1.png",
+    "imageLocalBase": "./Character Profile/0251-gitano"
+  },
+  {
+    "name": "Haze",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_141_nights_1.png",
+    "imageLocalBase": "./Character Profile/0252-haze"
+  },
+  {
+    "name": "Reserve Operator - Caster",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-08/char_505_rcast_1_0.png",
+    "imageLocalBase": "./Character Profile/0253-reserve-operator-caster"
+  },
+  {
+    "name": "Reserve Operator - Logistics",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-08/char_506_rmedic_1_0.png",
+    "imageLocalBase": "./Character Profile/0254-reserve-operator-logistics"
+  },
+  {
+    "name": "Reserve Operator - Sniper",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-08/char_507_rsnipe_1_1.png",
+    "imageLocalBase": "./Character Profile/0255-reserve-operator-sniper"
+  },
+  {
+    "name": "Reserve Operator - Melee",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-08/char_504_rguard_1_0.png",
+    "imageLocalBase": "./Character Profile/0256-reserve-operator-melee"
+  },
+  {
+    "name": "Spot",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_284_spot_1_0.png",
+    "imageLocalBase": "./Character Profile/0257-spot"
+  },
+  {
+    "name": "Popukar",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_281_popka_1_0.png",
+    "imageLocalBase": "./Character Profile/0258-popukar"
+  },
+  {
+    "name": "Midnight",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_283_midn_1.png",
+    "imageLocalBase": "./Character Profile/0259-midnight"
+  },
+  {
+    "name": "Catapult",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_282_catap_1.png",
+    "imageLocalBase": "./Character Profile/0260-catapult"
+  },
+  {
+    "name": "Orchid",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_278_orchid_1.png",
+    "imageLocalBase": "./Character Profile/0261-orchid"
+  },
+  {
+    "name": "Steward",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_210_stward_1.png",
+    "imageLocalBase": "./Character Profile/0262-steward"
+  },
+  {
+    "name": "Ansel",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_212_ansel_1.png",
+    "imageLocalBase": "./Character Profile/0263-ansel"
+  },
+  {
+    "name": "Hibiscus",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_120_hibisc_1.png",
+    "imageLocalBase": "./Character Profile/0264-hibiscus"
+  },
+  {
+    "name": "Lava",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_121_lava_1.png",
+    "imageLocalBase": "./Character Profile/0265-lava"
+  },
+  {
+    "name": "Adnachiel",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_211_adnach_1.png",
+    "imageLocalBase": "./Character Profile/0266-adnachiel"
+  },
+  {
+    "name": "Kroos",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_124_kroos_1_0.png",
+    "imageLocalBase": "./Character Profile/0267-kroos"
+  },
+  {
+    "name": "Beagle",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_122_beagle_1.png",
+    "imageLocalBase": "./Character Profile/0268-beagle"
+  },
+  {
+    "name": "Cardigan",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_209_ardign_1.png",
+    "imageLocalBase": "./Character Profile/0269-cardigan"
+  },
+  {
+    "name": "Melantha",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_208_melan_1.png",
+    "imageLocalBase": "./Character Profile/0270-melantha"
+  },
+  {
+    "name": "Plume",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_192_falco_1.png",
+    "imageLocalBase": "./Character Profile/0271-plume"
+  },
+  {
+    "name": "Vanilla",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_240_wyvern_1_0.png",
+    "imageLocalBase": "./Character Profile/0272-vanilla"
+  },
+  {
+    "name": "Fang",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_123_fang_1.png",
+    "imageLocalBase": "./Character Profile/0273-fang"
+  },
+  {
+    "name": "12F",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_009_12fce_1.png",
+    "imageLocalBase": "./Character Profile/0274-12f"
+  },
+  {
+    "name": "Durin",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_501_durin_1.png",
+    "imageLocalBase": "./Character Profile/0275-durin"
+  },
+  {
+    "name": "Rangers",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_503_rang_1.png",
+    "imageLocalBase": "./Character Profile/0276-rangers"
+  },
+  {
+    "name": "Noir Corne",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_500_noirc_1.png",
+    "imageLocalBase": "./Character Profile/0277-noir-corne"
+  },
+  {
+    "name": "Yato",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_502_nblade_1.png",
+    "imageLocalBase": "./Character Profile/0278-yato"
+  },
+  {
+    "name": "Terra Research Commission",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-03/%E7%AB%8B%E7%BB%98_%E6%B3%B0%E6%8B%89%E5%A4%A7%E9%99%86%E8%B0%83%E6%9F%A5%E5%9B%A2_1.png",
+    "imageLocalBase": "./Character Profile/0279-terra-research-commission"
+  },
+  {
+    "name": "'Justice Knight'",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2021-11/char_4000_jnight_1.png",
+    "imageLocalBase": "./Character Profile/0280-justice-knight"
+  },
+  {
+    "name": "THRM-EX",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2020-04/char_376_therex_1.png",
+    "imageLocalBase": "./Character Profile/0281-thrm-ex"
+  },
+  {
+    "name": "Castle-3",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_286_cast3_1.png",
+    "imageLocalBase": "./Character Profile/0282-castle-3"
+  },
+  {
+    "name": "Lancet-2",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2019-10/char_285_medic2_1.png",
+    "imageLocalBase": "./Character Profile/0283-lancet-2"
+  },
+  {
+    "name": "Ho'olheyak",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-05/%E7%AB%8B%E7%BB%98_%E9%9C%8D%E5%B0%94%E6%B5%B7%E9%9B%85_1.png",
+    "imageLocalBase": "./Character Profile/0284-ho-olheyak"
+  },
+  {
+    "name": "Muelsyse",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-05/%E7%AB%8B%E7%BB%98_%E7%BC%AA%E5%B0%94%E8%B5%9B%E6%80%9D_1.png",
+    "imageLocalBase": "./Character Profile/0285-muelsyse"
+  },
+  {
+    "name": "Executor the Ex Foedere",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-06/%E7%AB%8B%E7%BB%98_%E5%9C%A3%E7%BA%A6%E9%80%81%E8%91%AC%E4%BA%BA_1.png",
+    "imageLocalBase": "./Character Profile/0286-executor-the-ex-foedere"
+  },
+  {
+    "name": "Silence the Paradigmatic",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-05/%E7%AB%8B%E7%BB%98_%E6%B7%AC%E7%BE%BD%E8%B5%AB%E9%BB%98_1.png",
+    "imageLocalBase": "./Character Profile/0287-silence-the-paradigmatic"
+  },
+  {
+    "name": "Spuria",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-06/%E7%AB%8B%E7%BB%98_%E7%A9%BA%E6%9E%84_1.png",
+    "imageLocalBase": "./Character Profile/0288-spuria"
+  },
+  {
+    "name": "Insider",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-06/%E7%AB%8B%E7%BB%98_%E9%9A%90%E7%8E%B0_1.png",
+    "imageLocalBase": "./Character Profile/0289-insider"
+  },
+  {
+    "name": "Melanite",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-05/%E7%AB%8B%E7%BB%98_%E7%8E%AB%E6%8B%89_1.png",
+    "imageLocalBase": "./Character Profile/0290-melanite"
+  },
+  {
+    "name": "Friston-3",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-06/%E7%AB%8B%E7%BB%98_Friston-3_1.png",
+    "imageLocalBase": "./Character Profile/0291-friston-3"
+  },
+  {
+    "name": "U-Official",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-05/Uofficial.png",
+    "imageLocalBase": "./Character Profile/0292-u-official"
+  },
+  {
+    "name": "Santalla",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-07/char_341_sntlla_1.png",
+    "imageLocalBase": "./Character Profile/0293-santalla"
+  },
+  {
+    "name": "Typhon",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-07/char_2012_typhon_1.png",
+    "imageLocalBase": "./Character Profile/0294-typhon"
+  },
+  {
+    "name": "Jessica the Liberated",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-09/%E7%AB%8B%E7%BB%98_%E6%B6%A4%E7%81%AB%E6%9D%B0%E8%A5%BF%E5%8D%A1_1.png",
+    "imageLocalBase": "./Character Profile/0295-jessica-the-liberated"
+  },
+  {
+    "name": "Swire the Elegant Wit",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-08/%E7%AB%8B%E7%BB%98_%E7%90%B3%E7%90%85%E8%AF%97%E6%80%80%E9%9B%85_1.png",
+    "imageLocalBase": "./Character Profile/0296-swire-the-elegant-wit"
+  },
+  {
+    "name": "Eyjafjalla the Hvít Aska",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-08/%E7%AB%8B%E7%BB%98_%E7%BA%AF%E7%83%AC%E8%89%BE%E9%9B%85%E6%B3%95%E6%8B%89_1.png",
+    "imageLocalBase": "./Character Profile/0297-eyjafjalla-the-hvit-aska"
+  },
+  {
+    "name": "Almond",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-09/%E7%AB%8B%E7%BB%98_%E6%9D%8F%E4%BB%81_1.png",
+    "imageLocalBase": "./Character Profile/0298-almond"
+  },
+  {
+    "name": "Coldshot",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-09/%E7%AB%8B%E7%BB%98_%E5%86%B0%E9%85%BF_1.png",
+    "imageLocalBase": "./Character Profile/0299-coldshot"
+  },
+  {
+    "name": "Bryophyta",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-08/%E7%AB%8B%E7%BB%98_%E8%8B%8D%E8%8B%94_1.png",
+    "imageLocalBase": "./Character Profile/0300-bryophyta"
+  },
+  {
+    "name": "Poncirus",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-08/%E7%AB%8B%E7%BB%98_%E9%9D%92%E6%9E%B3_1.png",
+    "imageLocalBase": "./Character Profile/0301-poncirus"
+  },
+  {
+    "name": "Valarqvin",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-08/char_4102_threye_1.png",
+    "imageLocalBase": "./Character Profile/0302-valarqvin"
+  },
+  {
+    "name": "Delphine",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-10/%E7%AB%8B%E7%BB%98_%E6%88%B4%E8%8F%B2%E6%81%A9_1.png",
+    "imageLocalBase": "./Character Profile/0303-delphine"
+  },
+  {
+    "name": "Verdant",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-10/%E7%AB%8B%E7%BB%98_%E7%BB%B4%E8%8D%BB_1.png",
+    "imageLocalBase": "./Character Profile/0304-verdant"
+  },
+  {
+    "name": "Vendela",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-10/%E7%AB%8B%E7%BB%98_%E5%88%BA%E7%8E%AB_1.png",
+    "imageLocalBase": "./Character Profile/0305-vendela"
+  },
+  {
+    "name": "Hoederer",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-10/%E7%AB%8B%E7%BB%98_%E8%B5%AB%E5%BE%B7%E9%9B%B7_1.png",
+    "imageLocalBase": "./Character Profile/0306-hoederer"
+  },
+  {
+    "name": "Lessing",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-11/%E7%AB%8B%E7%BB%98_%E6%AD%A2%E9%A2%82_1.png",
+    "imageLocalBase": "./Character Profile/0307-lessing"
+  },
+  {
+    "name": "Viviana",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-11/%E7%AB%8B%E7%BB%98_%E8%96%87%E8%96%87%E5%AE%89%E5%A8%9C_1.png",
+    "imageLocalBase": "./Character Profile/0308-viviana"
+  },
+  {
+    "name": "Virtuosa",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-11/%E7%AB%8B%E7%BB%98_%E5%A1%91%E5%BF%83_1.png",
+    "imageLocalBase": "./Character Profile/0309-virtuosa"
+  },
+  {
+    "name": "Diamante",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-11/%E7%AB%8B%E7%BB%98_%E6%8A%98%E5%85%89_1.png",
+    "imageLocalBase": "./Character Profile/0310-diamante"
+  },
+  {
+    "name": "Bassline",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-11/%E7%AB%8B%E7%BB%98_%E6%B7%B1%E5%BE%8B_1.png",
+    "imageLocalBase": "./Character Profile/0311-bassline"
+  },
+  {
+    "name": "Caper",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-11/%E7%AB%8B%E7%BB%98_%E8%B7%83%E8%B7%83_1.png",
+    "imageLocalBase": "./Character Profile/0312-caper"
+  },
+  {
+    "name": "Degenbrecher",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-12/%E7%AB%8B%E7%BB%98_%E9%94%8F_1.png",
+    "imageLocalBase": "./Character Profile/0313-degenbrecher"
+  },
+  {
+    "name": "Ray",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2024-01/Ray.png",
+    "imageLocalBase": "./Character Profile/0314-ray"
+  },
+  {
+    "name": "Warmy",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2024-01/Warmy.png",
+    "imageLocalBase": "./Character Profile/0315-warmy"
+  },
+  {
+    "name": "Лето",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-12/%E7%AB%8B%E7%BB%98_%E7%83%88%E5%A4%8F_1.png",
+    "imageLocalBase": "./Character Profile/0316-operator"
+  },
+  {
+    "name": "Harold",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-12/%E7%AB%8B%E7%BB%98_%E5%93%88%E6%B4%9B%E5%BE%B7_1.png",
+    "imageLocalBase": "./Character Profile/0317-harold"
+  },
+  {
+    "name": "Zuo Le",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2024-02/%E7%AB%8B%E7%BB%98_%E5%B7%A6%E4%B9%90_1.png",
+    "imageLocalBase": "./Character Profile/0318-zuo-le"
+  },
+  {
+    "name": "Shu",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2024-02/Shu-2.png",
+    "imageLocalBase": "./Character Profile/0319-shu"
+  },
+  {
+    "name": "Grain Buds",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2024-02/%E7%AB%8B%E7%BB%98_%E5%B0%8F%E6%BB%A1_1.png",
+    "imageLocalBase": "./Character Profile/0320-grain-buds"
+  },
+  {
+    "name": "Wanqing",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2024-02/%E7%AB%8B%E7%BB%98_%E4%B8%87%E9%A1%B7_1.png",
+    "imageLocalBase": "./Character Profile/0321-wanqing"
+  },
+  {
+    "name": "Kestrel",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2024-02/%E7%AB%8B%E7%BB%98_%E7%BA%A2%E9%9A%BC_1.png",
+    "imageLocalBase": "./Character Profile/0322-kestrel"
+  },
+  {
+    "name": "Ela",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2024-03/Ela.png",
+    "imageLocalBase": "./Character Profile/0323-ela"
+  },
+  {
+    "name": "Doc",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2024-03/Doc.png",
+    "imageLocalBase": "./Character Profile/0324-doc"
+  },
+  {
+    "name": "Iana",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2024-03/Iana.png",
+    "imageLocalBase": "./Character Profile/0325-iana"
+  },
+  {
+    "name": "Fuze",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2024-03/Fuze.png",
+    "imageLocalBase": "./Character Profile/0326-fuze"
+  },
+  {
+    "name": "Ascalon",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2024-04/%E7%AB%8B%E7%BB%98_%E9%98%BF%E6%96%AF%E5%8D%A1%E7%BA%B6_1.png",
+    "imageLocalBase": "./Character Profile/0327-ascalon"
+  },
+  {
+    "name": "Aroma",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2024-04/%E7%AB%8B%E7%BB%98_%E9%98%BF%E7%BD%97%E7%8E%9B_1.png",
+    "imageLocalBase": "./Character Profile/0328-aroma"
+  },
+  {
+    "name": "Odda",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2024-04/%E7%AB%8B%E7%BB%98_%E5%A5%A5%E8%BE%BE_1.png",
+    "imageLocalBase": "./Character Profile/0329-odda"
+  },
+  {
+    "name": "Lutonada",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2024-04/%E7%AB%8B%E7%BB%98_%E9%9C%B2%E6%89%98_1.png",
+    "imageLocalBase": "./Character Profile/0330-lutonada"
+  },
+  {
+    "name": "Kirin R Yato",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2023-03/char_1029_yato2_1.png",
+    "imageLocalBase": "./Character Profile/0331-kirin-r-yato"
+  },
+  {
+    "name": "Młynar",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2022-09/%E7%AB%8B%E7%BB%98_%E7%8E%9B%E6%81%A9%E7%BA%B3_1.png",
+    "imageLocalBase": "./Character Profile/0332-m-ynar"
+  },
+  {
+    "name": "Civilight Eterna",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2024-05/%E7%AB%8B%E7%BB%98_%E9%AD%94%E7%8E%8B_1.png",
+    "imageLocalBase": "./Character Profile/0333-civilight-eterna"
+  },
+  {
+    "name": "Logos",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2024-05/%E7%AB%8B%E7%BB%98_%E9%80%BB%E5%90%84%E6%96%AF_1.png",
+    "imageLocalBase": "./Character Profile/0334-logos"
+  },
+  {
+    "name": "Wiš'adel",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2024-05/%E7%AB%8B%E7%BB%98_%E7%BB%B4%E4%BB%80%E6%88%B4%E5%B0%94_1_1.png",
+    "imageLocalBase": "./Character Profile/0335-wis-adel"
+  },
+  {
+    "name": "Ulpianus",
+    "imageRemote": "https://ak.gamepress.gg/sites/default/files/2024-06/Ulpianus.jpeg",
+    "imageLocalBase": "./Character Profile/0336-ulpianus"
+  }
+]

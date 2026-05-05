@@ -1,0 +1,2024 @@
+{
+  "downloaded": 0,
+  "skipped": 0,
+  "failed": 336,
+  "generatedAt": "2026-05-05T16:37:12",
+  "items": [
+    {
+      "name": "Ines",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0001-ines.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Qiubai",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0002-qiubai.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Chongyue",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0003-chongyue.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Lin",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0004-lin.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Reed the Flame Shadow",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0005-reed-the-flame-shadow.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Vigil",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0006-vigil.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Penance",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0007-penance.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Texas the Omertosa",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0008-texas-the-omertosa.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Stainless",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0009-stainless.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Pozëmka",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0010-pozemka.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Gavial the Invincible",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0011-gavial-the-invincible.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Dorothy",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0012-dorothy.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Ebenholz",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0013-ebenholz.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Lumen",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0014-lumen.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Irene",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0015-irene.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Specter the Unchained",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0016-specter-the-unchained.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Horn",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0017-horn.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Fiammetta",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0018-fiammetta.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Goldenglow",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0019-goldenglow.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Lee",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0020-lee.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Ling",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0021-ling.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Gnosis",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0022-gnosis.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Flametail",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0023-flametail.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Nearl the Radiant Knight",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0024-nearl-the-radiant-knight.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Fartooth",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0025-fartooth.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Saileach",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0026-saileach.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Mizuki",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0027-mizuki.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Ch'en the Holungday",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0028-ch-en-the-holungday.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Pallas",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0029-pallas.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Carnelian",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0030-carnelian.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Skadi the Corrupting Heart",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0031-skadi-the-corrupting-heart.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Kal'tsit",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0032-kal-tsit.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Gladiia",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0033-gladiia.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Passenger",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0034-passenger.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Ash",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0035-ash.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Dusk",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0036-dusk.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Saga",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0037-saga.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Archetto",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0038-archetto.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Mountain",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0039-mountain.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Mudrock",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0040-mudrock.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Rosmontis",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0041-rosmontis.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Blemishine",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0042-blemishine.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Surtr",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0043-surtr.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Eunectes",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0044-eunectes.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Thorns",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0045-thorns.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Suzuran",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0046-suzuran.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Rosa (Poca)",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0047-rosa-poca.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Weedy",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0048-weedy.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "W",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0049-w.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Phantom",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0050-phantom.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Bagpipe",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0051-bagpipe.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Ceobe",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0052-ceobe.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Nian",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0053-nian.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Aak",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0054-aak.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Blaze",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0055-blaze.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Mostima",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0056-mostima.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Magallan",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0057-magallan.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Hellagur",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0058-hellagur.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Schwarz",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0059-schwarz.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Ch'en",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0060-ch-en.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Skadi",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0061-skadi.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "SilverAsh",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0062-silverash.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Saria",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0063-saria.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Hoshiguma",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0064-hoshiguma.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Nightingale",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0065-nightingale.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Shining",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0066-shining.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Angelina",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0067-angelina.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Eyjafjalla",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0068-eyjafjalla.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Ifrit",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0069-ifrit.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Siege",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0070-siege.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Exusiai",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0071-exusiai.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Cement",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0072-cement.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Morgan",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0073-morgan.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Rathalos S Noir Corne",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0074-rathalos-s-noir-corne.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Wind Chimes",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0075-wind-chimes.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Firewhistle",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0076-firewhistle.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Jieyun",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0077-jieyun.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Harmonie",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0078-harmonie.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Puzzle",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0079-puzzle.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Qanipalaat",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0080-qanipalaat.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Lunacub",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0081-lunacub.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Paprika",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0082-paprika.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Dagda",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0083-dagda.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Highmore",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0084-highmore.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Proviso",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0085-proviso.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Cantabile",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0086-cantabile.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Minimalist",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0087-minimalist.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Greyy the Lightningbearer",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0088-greyy-the-lightningbearer.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Astgenne",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0089-astgenne.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Hibiscus the Purifier",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0090-hibiscus-the-purifier.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Czerny",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0091-czerny.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Erato",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0092-erato.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Windflit",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0093-windflit.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Rockrock",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0094-rockrock.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Heidi",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0095-heidi.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Kazemaru",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0096-kazemaru.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Enforcer",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0097-enforcer.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Quercus",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0098-quercus.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Kroos the Keen Glint",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0099-kroos-the-keen-glint.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Blacknight",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0100-blacknight.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Shalem",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0101-shalem.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Aurora",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0102-aurora.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Kjera",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0103-kjera.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Nine-Colored Deer",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0104-nine-colored-deer.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Honeyberry",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0105-honeyberry.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Wild Mane",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0106-wild-mane.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Corroserum",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0107-corroserum.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Ashlock",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0108-ashlock.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Mulberry",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0109-mulberry.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Tequila",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0110-tequila.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "La Pluma",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0111-la-pluma.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Kirara",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0112-kirara.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Bena",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0113-bena.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Akafuyu",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0114-akafuyu.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Toddifons",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0115-toddifons.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Heavyrain",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0116-heavyrain.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Frost",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0117-frost.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Blitz",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0118-blitz.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Tachanka",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0119-tachanka.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Mr. Nothing",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0120-mr-nothing.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Lava the Purgatory",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0121-lava-the-purgatory.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Tuye",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0122-tuye.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Iris",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0123-iris.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Robin",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0124-robin.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Kafka",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0125-kafka.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Amiya (Guard)",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0126-amiya-guard.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Whisperain",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0127-whisperain.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Aosta",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0128-aosta.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Whislash",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0129-whislash.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "April",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0130-april.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Mint",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0131-mint.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Touch",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0132-touch.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Pith",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0133-pith.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Stormeye",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0134-stormeye.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Sharp",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0135-sharp.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Flint",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0136-flint.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Tomimi",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0137-tomimi.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Andreana",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0138-andreana.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Chiave",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0139-chiave.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Beeswax",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0140-beeswax.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Scene",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0141-scene.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Ayerscarpe",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0142-ayerscarpe.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Folinic",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0143-folinic.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Leonhardt",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0144-leonhardt.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Absinthe",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0145-absinthe.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Tsukinogi",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0146-tsukinogi.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Asbestos",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0147-asbestos.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Elysium",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0148-elysium.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Shamare",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0149-shamare.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Sideroca",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0150-sideroca.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Sesa",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0151-sesa.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Bibeak",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0152-bibeak.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Leizi",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0153-leizi.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Hung",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0154-hung.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Snowsant",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0155-snowsant.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "GreyThroat",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0156-greythroat.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Broca",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0157-broca.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Reed",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0158-reed.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Bison",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0159-bison.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Waai Fu",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0160-waai-fu.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Ceylon",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0161-ceylon.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Flamebringer",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0162-flamebringer.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Breeze",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0163-breeze.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Executor",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0164-executor.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Astesia",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0165-astesia.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Glaucus",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0166-glaucus.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Swire",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0167-swire.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Grani",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0168-grani.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Nightmare",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0169-nightmare.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Savage",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0170-savage.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "FEater",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0171-feater.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Manticore",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0172-manticore.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Sora",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0173-sora.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Istina",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0174-istina.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Pramanix",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0175-pramanix.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Cliffheart",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0176-cliffheart.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Firewatch",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0177-firewatch.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Provence",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0178-provence.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Vulcan",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0179-vulcan.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Croissant",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0180-croissant.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Liskarm",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0181-liskarm.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Projekt Red",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0182-projekt-red.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Nearl",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0183-nearl.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Warfarin",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0184-warfarin.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Silence",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0185-silence.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Mayer",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0186-mayer.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Skyfire",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0187-skyfire.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Amiya",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0188-amiya.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Meteorite",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0189-meteorite.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Platinum",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0190-platinum.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Blue Poison",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0191-blue-poison.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Specter",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0192-specter.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Lappland",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0193-lappland.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Indra",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0194-indra.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Franka",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0195-franka.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Texas",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0196-texas.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Zima",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0197-zima.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Ptilopsis",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0198-ptilopsis.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Humus",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0199-humus.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Quartz",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0200-quartz.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Totter",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0201-totter.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Luo Xiaohei",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0202-luo-xiaohei.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Chestnut",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0203-chestnut.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Pudding",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0204-pudding.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Roberta",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0205-roberta.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Indigo",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0206-indigo.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Beanstalk",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0207-beanstalk.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Pinecone",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0208-pinecone.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Bubble",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0209-bubble.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Arene",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0210-arene.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Aciddrop",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0211-aciddrop.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Jaye",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0212-jaye.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Click",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0213-click.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Podenco",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0214-podenco.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Jackie",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0215-jackie.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Cutter",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0216-cutter.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Conviction",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0217-conviction.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Utage",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0218-utage.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Purestream",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0219-purestream.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Ambriel",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0220-ambriel.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "May",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0221-may.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Ethan",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0222-ethan.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Dur-nar",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0223-dur-nar.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Vermeil",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0224-vermeil.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Myrtle",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0225-myrtle.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Sussurro",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0226-sussurro.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Greyy",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0227-greyy.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Beehunter",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0228-beehunter.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Shaw",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0229-shaw.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Earthspirit",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0230-earthspirit.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Deepcolor",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0231-deepcolor.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Gummy",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0232-gummy.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Cuora",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0233-cuora.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Matterhorn",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0234-matterhorn.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Perfumer",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0235-perfumer.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Gavial",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0236-gavial.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Myrrh",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0237-myrrh.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Rope",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0238-rope.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Gravel",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0239-gravel.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Mousse",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0240-mousse.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Estelle",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0241-estelle.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Frostleaf",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0242-frostleaf.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Matoimaru",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0243-matoimaru.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Dobermann",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0244-dobermann.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Vigna",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0245-vigna.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Scavenger",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0246-scavenger.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Courier",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0247-courier.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Shirayuki",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0248-shirayuki.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Meteor",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0249-meteor.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Jessica",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0250-jessica.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Gitano",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0251-gitano.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Haze",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0252-haze.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Reserve Operator - Caster",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0253-reserve-operator-caster.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Reserve Operator - Logistics",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0254-reserve-operator-logistics.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Reserve Operator - Sniper",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0255-reserve-operator-sniper.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Reserve Operator - Melee",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0256-reserve-operator-melee.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Spot",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0257-spot.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Popukar",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0258-popukar.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Midnight",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0259-midnight.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Catapult",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0260-catapult.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Orchid",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0261-orchid.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Steward",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0262-steward.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Ansel",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0263-ansel.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Hibiscus",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0264-hibiscus.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Lava",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0265-lava.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Adnachiel",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0266-adnachiel.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Kroos",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0267-kroos.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Beagle",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0268-beagle.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Cardigan",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0269-cardigan.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Melantha",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0270-melantha.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Plume",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0271-plume.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Vanilla",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0272-vanilla.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Fang",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0273-fang.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "12F",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0274-12f.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Durin",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0275-durin.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Rangers",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0276-rangers.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Noir Corne",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0277-noir-corne.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Yato",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0278-yato.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Terra Research Commission",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0279-terra-research-commission.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "'Justice Knight'",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0280-justice-knight.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "THRM-EX",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0281-thrm-ex.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Castle-3",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0282-castle-3.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Lancet-2",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0283-lancet-2.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Ho'olheyak",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0284-ho-olheyak.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Muelsyse",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0285-muelsyse.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Executor the Ex Foedere",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0286-executor-the-ex-foedere.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Silence the Paradigmatic",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0287-silence-the-paradigmatic.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Spuria",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0288-spuria.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Insider",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0289-insider.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Melanite",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0290-melanite.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Friston-3",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0291-friston-3.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "U-Official",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0292-u-official.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Santalla",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0293-santalla.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Typhon",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0294-typhon.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Jessica the Liberated",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0295-jessica-the-liberated.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Swire the Elegant Wit",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0296-swire-the-elegant-wit.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Eyjafjalla the Hvít Aska",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0297-eyjafjalla-the-hvit-aska.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Almond",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0298-almond.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Coldshot",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0299-coldshot.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Bryophyta",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0300-bryophyta.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Poncirus",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0301-poncirus.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Valarqvin",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0302-valarqvin.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Delphine",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0303-delphine.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Verdant",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0304-verdant.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Vendela",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0305-vendela.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Hoederer",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0306-hoederer.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Lessing",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0307-lessing.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Viviana",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0308-viviana.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Virtuosa",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0309-virtuosa.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Diamante",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0310-diamante.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Bassline",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0311-bassline.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Caper",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0312-caper.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Degenbrecher",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0313-degenbrecher.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Ray",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0314-ray.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Warmy",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0315-warmy.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Лето",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0316-operator.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Harold",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0317-harold.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Zuo Le",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0318-zuo-le.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Shu",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0319-shu.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Grain Buds",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0320-grain-buds.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Wanqing",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0321-wanqing.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Kestrel",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0322-kestrel.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Ela",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0323-ela.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Doc",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0324-doc.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Iana",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0325-iana.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Fuze",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0326-fuze.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Ascalon",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0327-ascalon.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Aroma",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0328-aroma.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Odda",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0329-odda.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Lutonada",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0330-lutonada.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Kirin R Yato",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0331-kirin-r-yato.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Młynar",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0332-m-ynar.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Civilight Eterna",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0333-civilight-eterna.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Logos",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0334-logos.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Wiš'adel",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0335-wis-adel.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    },
+    {
+      "name": "Ulpianus",
+      "status": "failed",
+      "file": "C:\\Users\\paulg\\Documents\\Codex\\2026-05-05\\files-mentioned-by-the-user-index\\Recruitment\\Character Profile\\0336-ulpianus.png",
+      "message": "Response status code does not indicate success: 502 (Bad Gateway)."
+    }
+  ]
+}
