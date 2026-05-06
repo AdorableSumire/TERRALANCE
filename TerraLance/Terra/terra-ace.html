@@ -1832,7 +1832,11 @@
     }
 
     function updateHeader() {
-        if (!currentUser) return;
+        if (!currentUser) {
+            roleBadge.textContent = "Role Access";
+            sessionBadge.textContent = "Awaiting Login";
+            return;
+        }
         roleBadge.textContent = `${roleLabel(currentUser.role)} Access`;
         sessionBadge.textContent = `${currentUser.name} Online`;
     }
@@ -1882,6 +1886,10 @@
     }
 
     function logout() {
+        sessionUserId = null;
+        currentUser = null;
+        save();
+        updateHeader();
         openLogin();
     }
 
@@ -2581,8 +2589,12 @@
     load();
     updateHeader();
     renderLoginUsers();
-    refresh();
-    openLogin();
+    if (currentUser) {
+        refresh();
+        closeLogin();
+    } else {
+        openLogin();
+    }
 </script>
 </body>
 </html>
