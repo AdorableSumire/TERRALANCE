@@ -1828,8 +1828,20 @@
     }
 
     function canDeletePost(post) {
-        return currentUser && (post.authorId === currentUser.id || currentUser.role === "admin" || currentUser.role === "super_admin");
+    if (!currentUser) return false;
+    // Any user can delete their own post
+    if (post.authorId === currentUser.id) return true;
+    // Super admins can delete any post
+    if (currentUser.role === "super_admin") return true;
+    // Admins can delete posts, but NOT posts authored by a super_admin
+    if (currentUser.role === "admin") {
+        const postAuthor = allUsers[post.authorId];
+        return postAuthor
+            ? postAuthor.role !== "super_admin"
+            : true;
     }
+    return false;
+}
 
     function updateHeader() {
         if (!currentUser) {
