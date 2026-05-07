@@ -1783,6 +1783,72 @@
             .right-rail::-webkit-scrollbar-thumb:hover {
                 background: var(--muted);
             }
+
+            /* ── ACCESS NODE BUTTON ────────────────────── */
+            .access-node-btn {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                padding: 11px 14px;
+                margin-bottom: 14px;
+                border-radius: var(--radius-md);
+                border: 1px solid rgba(20,151,212,0.28);
+                background: linear-gradient(135deg, rgba(20,151,212,0.08), rgba(245,123,93,0.06));
+                text-decoration: none;
+                color: var(--text);
+                font-size: .82rem;
+                font-weight: 700;
+                letter-spacing: .05em;
+                transition: border-color .18s, background .18s, transform .18s, box-shadow .18s;
+                position: relative;
+                overflow: hidden;
+            }
+            .access-node-btn::before {
+                content: "";
+                position: absolute;
+                inset: 0;
+                background: linear-gradient(135deg, rgba(20,151,212,0.12), rgba(245,123,93,0.08));
+                opacity: 0;
+                transition: opacity .18s;
+            }
+            .access-node-btn:hover {
+                border-color: rgba(20,151,212,0.55);
+                transform: translateY(-1px);
+                box-shadow: 0 6px 20px rgba(20,151,212,0.14);
+            }
+            .access-node-btn:hover::before { opacity: 1; }
+            .access-node-icon {
+                font-size: 1rem;
+                color: var(--accent);
+                flex-shrink: 0;
+                position: relative;
+            }
+            .access-node-label {
+                flex: 1;
+                position: relative;
+                text-transform: uppercase;
+                letter-spacing: .1em;
+                font-size: .74rem;
+            }
+            .access-node-arrow {
+                font-size: .88rem;
+                color: var(--accent);
+                opacity: .7;
+                position: relative;
+                transition: transform .18s, opacity .18s;
+            }
+            .access-node-btn:hover .access-node-arrow {
+                transform: translate(2px, -2px);
+                opacity: 1;
+            }
+            body[data-theme="dark"] .access-node-btn {
+                border-color: rgba(56,189,248,0.28);
+                background: linear-gradient(135deg, rgba(56,189,248,0.08), rgba(245,123,93,0.06));
+            }
+            body[data-theme="dark"] .access-node-btn:hover {
+                border-color: rgba(56,189,248,0.55);
+                box-shadow: 0 6px 20px rgba(56,189,248,0.14);
+            }
         </style>
     </head>
     <body>
@@ -1949,6 +2015,11 @@
                 <div class="status-chip" style="margin-bottom: 16px">
                     <span class="status-dot"></span> Network live
                 </div>
+                <a href="../index.html" class="access-node-btn" title="Return to the Access Node portal">
+                    <span class="access-node-icon">⬡</span>
+                    <span class="access-node-label">Access Node</span>
+                    <span class="access-node-arrow">↗</span>
+                </a>
                 <div class="nav-group" id="desktopNav"></div>
                 <div id="sidebarCTA" style="margin-bottom: 16px"></div>
                 <div class="sidebar-card" id="sidebarProfile"></div>
@@ -2550,6 +2621,16 @@
                 };
             }
             let state = loadState() || createDefaultState();
+            // Ensure all seed accounts exist in state (handles accounts added after first save)
+            SEED_ACCOUNTS.forEach(function (seed) {
+                if (
+                    !state.accounts.find(function (a) {
+                        return a.id === seed.id;
+                    })
+                ) {
+                    state.accounts.push(JSON.parse(JSON.stringify(seed)));
+                }
+            });
             state.settings = Object.assign(
                 {
                     notifications: true,
